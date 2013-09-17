@@ -14,8 +14,8 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  font: 1em Helvetica, Arial, sans-serif;
+  font-weight:lighter;
   text-align: center;
 }
 
@@ -58,8 +58,8 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
+  width: 650;
+  margin: 3em 2em 2em 20em;
   line-height: 1.5em;
 }
 
@@ -157,4 +157,26 @@ ul.posts span {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+/* Customized stuff */
+#sidebar {
+  float:left;
+  width:300px;
+}
+
+#sidebar .logo {
+  clear:both;
+  -webkit-border-radius: 15em;
+  border-radius: 15em;
+  -webkit-box-shadow: inset 0px 0px 0px 3px #fff, 0px 4px 8px -2px rgba(100,100,100,0.2);
+  box-shadow: inset 0px 0px 0px 3px #fff, 0px 4px 8px -2px rgba(100,100,100,0.2);
+  background-color: #1abc9c;
+  background-image: url('http://www.gravatar.com/avatar/d5de7d5f26b1198fb4388acccb928a59?size=250');
+  width: 250px;
+  height: 250px;
+  margin: 0em auto 30px;
+  color: #fff;
+  border: 3px solid #1abc9c;
+  text-align: center;
 }
