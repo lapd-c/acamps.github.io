@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 1em Helvetica, Arial, sans-serif;
+  font: 1em 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight:lighter;
   text-align: center;
 }
@@ -73,7 +73,7 @@ ul.posts span {
   display: inline-block;
   font-weight:100;
   color: #1abc9c;
-  font-family: Tahoma;
+  font-family: 'Helvetica Neue';
   margin-bottom: 2em;
 }
 
