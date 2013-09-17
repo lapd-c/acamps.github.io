@@ -25,9 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a         { color: #71dabd; }
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #139078; }
 
 /*****************************************************************************/
 /*
@@ -64,17 +64,21 @@ ul.posts span {
 }
 
 .site .header a {
-  font-weight: bold;
+  font-size:2em;
+  /*font-weight: bold;*/
   text-decoration: none;
 }
 
 .site .header h1.title {
   display: inline-block;
+  font-weight:100;
+  color: #1abc9c;
+  font-family: Tahoma;
   margin-bottom: 2em;
 }
 
 .site .header h1.title a {
-  color: #a00;
+  color: #1abc9c;
 }
 
 .site .header h1.title a:hover {
