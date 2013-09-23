@@ -163,6 +163,10 @@ ul.posts span {
   background-color: #333;
 }
 
+.post {
+  padding-bottom: 2em;
+}
+
 /* Customized stuff */
 #sidebar {
   float:left;
