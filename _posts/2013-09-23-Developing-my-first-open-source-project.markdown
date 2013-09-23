@@ -11,8 +11,13 @@ Thinking about that, and that now that my studies are over (for now), I decided 
 
 Sooo, here I am, a few weeks before publishing this project that has had me working for about a month, and which hopefully will be helpfull to someone.
 
-_ __PS:__ Hopefully I can update the references to GIT and some other resources to articles in this own blog soon enough. And link the project that now is private, to a [public repo][acamps-gh]_
-_ __PS2:__ I need to install here some comment system._
+_**PS:** Hopefully I can update the references to GIT and some other resources to articles in this own blog soon enough. And link the project that now is private, to a [public repo][acamps-gh]_
+_**PS2:** I need to install here some comment system._
+
+```git
+$ git checkout -b iss53
+```
+
 
 [acamps-gh]: https://github.com/acamps
 [node-js]: http://nodejs.org/
