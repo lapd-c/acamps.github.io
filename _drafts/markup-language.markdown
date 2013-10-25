@@ -5,3 +5,5 @@ https://sublimegit.net/#installation
 https://github.com/nvie/gitflow
 http://nvie.com/posts/a-successful-git-branching-model/
 posar updates també a jekyll
+git push origin newfeature
+git push origin :featuretoremove

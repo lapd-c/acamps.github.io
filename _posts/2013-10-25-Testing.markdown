@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "Testing"
+date:   2013-10-25 18:00:07
+categories: testing node.js
+---
+
+I've _run_ into a lot of trouble. Influenced by some of my peers and what I felt was best for my app development skills, I tried to implement some testing environment.
+
+*First* I have added functional tests. I run them with [zombie.js][zombie] as a headless browser, with [mocha][mocha] and [should][should]. I've been learning a lot, and now I run in every test a new instance of my app with a brand new database schema, so I have total control of the status I'm at.
+
+Later on, after some more time I was introduced to [code coverage][coverage], and I wanted to see _how much_ of my code was tested. Platforms like [istanbul][istanbul], [jscoverage][jscoverage] reported me some results. Not so lucky with [blanket.js][blanket] so far, as you can see in my [bug report][blanketbug] - I created my first [gist][buggist]!!
+
+Overall I've been able to see my server code coverage, but nothing about my clientside code coverage. I reported [this question][question] to [Stack overflow][stack], but I haven't been lucky so far.
+
+So as a work arround I started working with [RequireJS][require] and generating modules with my clienside code. I plan on using [controller][controller] and [singleton][singleton] patterns to make everything more modular, and test my modules independently.
+
+That I can do with [mocha][mocha], as you can see in a __gist__ that should go here, but for the __coverage__ part I still get no result. _ATM_ I'm trying to push this forward even if it's weblike following [this][requiregist] and [this][blanketrequire].
+
+
+On another totally different line of though, I started working on [git flow][gitflow], even though I don't follow it very strictly. But to use it right, with the amount of spare time I have to push the branches to origin and then delete them.
+```
+#Create
+$ git push origin local-branch-name:new-remote-branch-name
+#Delete
+$ git push origin :remote-branch-name
+```
+
+__More soon!__
+
+[zombie]: http://zombie.labnotes.org/
+[mocha]: http://visionmedia.github.io/mocha/
+[should]: https://github.com/visionmedia/should.js/
+[coverage]: http://en.wikipedia.org/wiki/Code_coverage
+[istanbul]: https://github.com/gotwarlost/istanbul
+[jscoverage]: http://siliconforks.com/jscoverage/
+[blanket]: http://blanketjs.org/
+[blanketbug]: https://github.com/alex-seville/blanket/issues/344
+[buggist]: https://gist.github.com/acamps/7128230
+[question]: http://stackoverflow.com/questions/19457432/can-i-see-code-coverage-on-code-executed-by-headless-browser
+[stack]: http://stackoverflow.com/
+[controller]: http://spinejs.com/docs/controller_patterns
+[singleton]:http://en.wikipedia.org/wiki/Singleton_pattern 
+[gitflow]: http://nvie.com/posts/a-successful-git-branching-model/
+[require]: http://requirejs.org/
+[blanketrequire]: https://github.com/alex-seville/blanket/tree/master/test/requirejs/code
+[requiregist]: https://gist.github.com/michaelcox/3800736
