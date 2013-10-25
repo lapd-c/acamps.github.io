@@ -19,12 +19,12 @@ That I can do with [mocha][mocha], as you can see in a __gist__ that should go h
 
 
 On another totally different line of though, I started working on [git flow][gitflow], even though I don't follow it very strictly. But to use it right, with the amount of spare time I have to push the branches to origin and then delete them.
-```
+
 #Create
 $ git push origin local-branch-name:new-remote-branch-name
 #Delete
 $ git push origin :remote-branch-name
-```
+
 
 __More soon!__
 
