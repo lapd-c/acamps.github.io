@@ -13,7 +13,7 @@ Sooo, here I am, a few weeks before publishing this project that has had me work
 
 _**PS:** Hopefully I can update the references to GIT and some other resources to articles in this own blog soon enough. And link the project that now is private, to a [public repo][acamps-gh]_ 
 
-<del>_**PS2:** I need to install here some comment system._</del>
+<del><b>PS2:</b> I need to install here some comment system.</del>
 
 
 
