@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "CSS3 :before :after"
+date:   2013-11-21 01:32:40
+categories: css3
+---
+
+
+
+As I was working today I found this image in a e-mail landing page, and I was about to just pngize it and use it as a background image in some div, when my former superior suggested to use CSS3. Not that much work, good idea to just think about something different, because I'm getting a lot of similar work, and I think I need to focus on improve this little details.
+
+```css
+#central{
+	position:relative;
+	left:50px;
+	background-color: black;
+	height:200px;
+	width:200px;
+}
+#central:before {
+	position:relative;
+	left:-75px;
+	display: inline-block;
+	border-top: 100px solid black;
+	border-left: 100px solid transparent;
+	border-bottom: 100px solid black;
+	/*border-right-color: rgba(0, 0, 0, 0.2);*/
+	content: '';
+	transform: scale(0.5,1);
+	-ms-transform: scale(0.5,1); /* IE 9 */
+	-webkit-transform: scale(0.5,1); /* Safari and Chrome */
+}
+#central:after {
+	position:relative;
+	left:75px;
+	display: inline-block;
+	border-top: 100px solid transparent;
+	border-left: 100px solid black;
+	border-bottom: 100px solid transparent;
+	/*border-right-color: rgba(0, 0, 0, 0.2);*/
+	content: '';
+	transform: scale(0.5,1);
+	-ms-transform: scale(0.5,1); /* IE 9 */
+	-webkit-transform: scale(0.5,1); /* Safari and Chrome */
+}
+```
+
+With this code you can mostly emulate an arrow. I found useful [this article][triangles], even though I needed to [scale][transformations] them and think a bit more about position. I could have played with a div and rotate it, for the :after part. I might do it after, to test the result.
+
+[triangles]:http://davidwalsh.name/css-triangles
+[transformations]:http://www.w3schools.com/css/css3_2dtransforms.asp
