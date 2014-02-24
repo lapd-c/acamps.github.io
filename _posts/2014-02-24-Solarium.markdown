@@ -15,7 +15,7 @@ To start, it is loaded straight away with [composer][composer] what is always a 
 Since I wasn't using it..
 
 I just now want to trigger when a form gets saved, a Solr remove, and then update commands so my indexing works just fine when the time to "decide" comes.
-```php
+``` php
 <?php
 $config = array(
     'endpoint' => array(
