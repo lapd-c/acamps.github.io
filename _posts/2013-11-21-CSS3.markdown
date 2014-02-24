@@ -47,5 +47,7 @@ As I was working today I found this image in a e-mail landing page, and I was ab
 
 With this code you can mostly emulate an arrow. I found useful [this article][triangles], even though I needed to [scale][transformations] them and think a bit more about position. I could have played with a div and rotate it, for the :after part. I might do it after, to test the result.
 
+The _bad_ thing is that Internet Explorer 8 doesn't display this as beautifull as one would like. So we can simply remove it an specific IE8 stylesheet.
+
 [triangles]:http://davidwalsh.name/css-triangles
 [transformations]:http://www.w3schools.com/css/css3_2dtransforms.asp
