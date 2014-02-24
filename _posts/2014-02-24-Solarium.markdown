@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Solarium. Why?"
+date:   2013-11-21 01:32:40
+categories: solarium symfony2
+---
+
+
+Today I need to work with [Solr][solr] from Php. I first tried [solr_php_client][solr_php] but after asking Roger, he recomended the much more used [Solarium][solarium]. So here I am, having to change yet again the configuration.
+
+As a good practice, I have to visit first [Packagist][packagist], there all maintained php packets are available, so it is the best place to choose from.
+
+To start, it is loaded straight away with [composer][composer] what is always a good thing to match my JENKINS CI config. But here I found some dependency conflicts with mink!
+
+Since I wasn't using it..
+
+I just now want to trigger when a form gets saved, a Solr remove, and then update commands so my indexing works just fine when the time to "decide" comes.
+```php
+<?php
+$config = array(
+    'endpoint' => array(
+        'localhost' => array(
+            'host' => '127.0.0.1',
+            'port' => 8888,
+            'path' => '/solr/',
+        )
+    )
+);
+// create a client instance
+$client = new Solarium\Client($config);
+
+// get an update query instance
+$update = $client->createUpdate();
+
+// create a new document for the data
+$doc1 = $update->createDocument();
+$doc1->id = 123;
+$doc1->name = 'testdoc-1';
+$doc1->price = 364;
+
+// and a second one
+$doc2 = $update->createDocument();
+$doc2->id = 124;
+$doc2->name = 'testdoc-2';
+$doc2->price = 340;
+
+// add the documents and a commit command to the update query
+$update->addDocuments(array($doc1, $doc2));
+$update->addCommit();
+
+// this executes the query and returns the result
+$result = $client->update($update);
+
+echo '<b>Update query executed</b><br/>';
+echo 'Query status: ' . $result->getStatus(). '<br/>';
+echo 'Query time: ' . $result->getQueryTime();
+
+```
+And thankfully this works just out of the box. Now I have to think a way to _properly_ include this in the event of saving a binary tree that contains nodes with geospatial information.
+
+Roger suggested using an Event Dispatcher and just subscribe InnerGeoNodes to the save event of the tree, and then add the Solr information to be indexed at that precise moment. Working on it.
+
+[solr]:https://lucene.apache.org/solr/
+[solr_php]:http://www.php.net/manual/en/book.solr.php
+[solarium]:http://www.solarium-project.org/
+[composer]:https://getcomposer.org/
+[packagist]:https://packagist.org/
