@@ -15,7 +15,7 @@ To start, it is loaded straight away with [composer][composer] what is always a 
 Since I wasn't using it..
 
 I just now want to trigger when a form gets saved, a Solr remove, and then update commands so my indexing works just fine when the time to "decide" comes.
-```
+<code>
 <?php
 $config = array(
     'endpoint' => array(
@@ -55,7 +55,7 @@ echo '<b>Update query executed</b><br/>';
 echo 'Query status: ' . $result->getStatus(). '<br/>';
 echo 'Query time: ' . $result->getQueryTime();
 
-```
+</code>
 And thankfully this works just out of the box. Now I have to think a way to _properly_ include this in the event of saving a binary tree that contains nodes with geospatial information.
 
 Roger suggested using an Event Dispatcher and just subscribe InnerGeoNodes to the save event of the tree, and then add the Solr information to be indexed at that precise moment. Working on it.
