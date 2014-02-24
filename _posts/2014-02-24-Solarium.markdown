@@ -54,7 +54,7 @@ $result = $client->update($update);
 echo '<b>Update query executed</b><br/>';
 echo 'Query status: ' . $result->getStatus(). '<br/>';
 echo 'Query time: ' . $result->getQueryTime();
-```
+
 
 And thankfully this works just out of the box. Now I have to think a way to _properly_ include this in the event of saving a binary tree that contains nodes with geospatial information.
 
