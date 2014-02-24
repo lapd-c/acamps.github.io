@@ -1,3 +1,4 @@
 name: Albert Camps Lladó
-markdown: markdown
+markdown: maruku
 pygments: true
+encoding: utf-8

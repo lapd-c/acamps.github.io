@@ -16,7 +16,7 @@ Since I wasn't using it..
 
 I just now want to trigger when a form gets saved, a Solr remove, and then update commands so my indexing works just fine when the time to "decide" comes.
 
-```php
+{% highlight php linenos %}
 $config = array(
     'endpoint' => array(
         'localhost' => array(
@@ -50,11 +50,11 @@ $update->addCommit();
 
 // this executes the query and returns the result
 $result = $client->update($update);
-```
+
 echo '<b>Update query executed</b><br/>';
 echo 'Query status: ' . $result->getStatus(). '<br/>';
 echo 'Query time: ' . $result->getQueryTime();
-
+{% endhighlight %}
 
 And thankfully this works just out of the box. Now I have to think a way to _properly_ include this in the event of saving a binary tree that contains nodes with geospatial information.
 
