@@ -51,11 +51,14 @@ Setting the encoding will make your life a lot easier.
 Finally, you need to have pygments installed. That can be _easilly_ accomplished with
 {% highlight bash linenos %}
 $ sudo easy_install pip
-$ sudo pip pygments
+$ sudo pip install pygments
 {% endhighlight %}
 
 Otherwise problems with the encoding might arise.
 
 To see how your server is behaving, and check if everything is working fine:
 `jekyll serve --drafts -w`
-And immediately you will see your posts, your drafts, and everything will get updated once it's modified, because of the -w (watch) flag.
+and immediately you will see your posts, your drafts, and everything on http://localhost:4000 . Also, it  will get updated once it's modified, because of the -w (watch) flag.
+
+[jekyll]: http://jekyllrb.com/
+[gumesson_rakefile]: https://github.com/gummesson/jekyll-rake-boilerplate/blob/master/Rakefile
