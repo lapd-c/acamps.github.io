@@ -2,3 +2,18 @@ name: Albert Camps Lladó
 markdown: redcarpet 
 pygments: true
 encoding: utf-8
+
+post:
+  template: _post.txt
+  extension: markdown
+page:
+  template: _page.txt
+  extension: markdown
+editor: vim
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Documents/Projects/acamps.github.io/
