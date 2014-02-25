@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Solarium. Why?"
-date:   2013-11-21 01:32:40
+date:   2014-02-24 19:32:40
 categories: solarium symfony2
 ---
 
