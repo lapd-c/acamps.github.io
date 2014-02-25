@@ -13,6 +13,7 @@ $ \curl -sSL https://get.rvm.io | bash -s stable
 #Install the new ruby version, 2.1.1 at the writing of this post, but list known will list them all
 $ rvm list known
 $ rvm install ruby-2.1.1
+$ rvm use 2.1.1
 {% endhighlight %}
 
 Then you will have installed a new version of Ruby, and you can install [jekyll][jekyll] (easily with `gem install jekyll`, more in their site) and whatever markdown parser you want to install.
