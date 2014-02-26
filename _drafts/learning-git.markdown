@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Learning GIT"
-date:   2013-09-23 12:00:00
 categories: git
 ---
 Even this article name is _Learning GIT_, some previous knowledge of git is supposed. There are [other resources][git-book] that can be usefull to learn from 0, and understand version control concepts that you might not be familiar with.
