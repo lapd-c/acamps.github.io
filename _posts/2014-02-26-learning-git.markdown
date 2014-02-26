@@ -5,7 +5,7 @@ categories: git
 ---
 Even this article name is _Learning GIT_, some previous knowledge of git is supposed. There are [other resources][git-book] that can be usefull to learn from 0, and understand version control concepts that you might not be familiar with.
 
-Again and again I try to remember some basic uses of git, like creating a branch, and changing to it. So creating this cheatsheet should help me, and only me, because out there you can find awesome tutorials like [this one][git-book].
+Again and again I try to remember some basic uses of git, like creating a branch, and changing to it. So creating this cheatsheet helps me, but I hope that someone else can use it as an resource. Anyway, if you are looking for awesome git tutorials, you can find plenty like [this one][git-book] in the web.
 
 &nbsp;
 - __Change to a new branch called TESTBRANCH__
