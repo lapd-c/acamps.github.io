@@ -193,3 +193,29 @@ ul.posts span {
   border: 3px solid #1abc9c;
   text-align: center;
 }
+
+/*****************************************************************************/
+/*
+/* Media queries
+/*
+/*****************************************************************************/
+
+@media screen and (max-width:1023px) {
+  #sidebar .logo {
+    background-image: none;
+
+  }
+  #sidebar .personal {
+    position: absolute;
+    left: 40%;
+    top: 5.5em;
+  }
+  #sidebar {
+    float: none;
+    width: 100%;
+  }
+  .site {
+    width:95%;
+    margin: 0 1em 0 1em;
+  }
+}
