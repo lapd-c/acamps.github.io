@@ -151,6 +151,9 @@ ul.posts span {
 
 .post pre code {
   border: none;
+}
+
+.post pre code span {
   white-space: normal;
 }
 
