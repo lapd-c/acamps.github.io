@@ -147,6 +147,7 @@ ul.posts span {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
+  white-space: normal;
 }
 
 .post pre code {
