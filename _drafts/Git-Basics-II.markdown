@@ -38,5 +38,13 @@ git tag
 to add a new tag
 $ git tag -a v1.4 -m 'my version 1.4'
 
+Setting your branch to exactly match the remote branch can be done in two steps:
+
+git fetch origin
+git reset --hard origin/master
+If you want to save your current branch's state before doing this (just in case), you can do:
+
+git commit -a -m "Saving my work, just in case"
+git branch my-saved-work
 
 [Example][http://www.keradgames.com/]
