@@ -43,7 +43,7 @@ $ git pull -u remote-name (git config https://www.kernel.org/pub/software/scm/gi
 {% endhighlight %}
 &nbsp;
 - __Merge branches__
-&nbsp;
+
 To merge branches, you first have to jump to the branch you want to update. In this example, we will add the current development in the `development` branch to the `master`.
 {% highlight bash %}
 $ git branch master
@@ -52,7 +52,7 @@ $ git merge develop
 Some problems might arise from the merge if there are conflicts, but we will deal with this in another post.
 
 - __Delete files__
-&nbsp;
+
 Comments on git rm. If you really need to delete files, sometimes checking this will be interesting.
 {% highlight bash %}
 $ git rm -rf
@@ -61,7 +61,7 @@ $ git add -A
 {% endhighlight %}
 &nbsp;
 - __Tag commits__
-&nbsp;
+
 Also it is useful to tag some special commits, so you can go back to them when you need, or users can download specific versions while development continues.
 
 To see which tags have been created just:
