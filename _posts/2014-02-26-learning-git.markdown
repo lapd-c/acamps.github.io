@@ -42,6 +42,7 @@ $ git config --global color.ui true
 {% endhighlight %}
 &nbsp;
 - __Alias and other useful git commands__
+Having some aliases in your `.bashrc` or `.zshrc` files is interesting, and this come in very handy even if you use the oh-my-zsh git plugin - thing I would recommend anyway.
 {% highlight bash %}
 alias ga="git add -a"
 alias gm="git commit -m"
