@@ -39,7 +39,8 @@ git pull origin
 To change the default origin or branch, edit your `.git/config` file
 or
 {% highlight bash %}
-$ git pull -u remote-name (git config https://www.kernel.org/pub/software/scm/git/docs/git-push.html)
+$ git pull -u remote-name 
+#(git config https://www.kernel.org/pub/software/scm/git/docs/git-push.html)
 {% endhighlight %}
 &nbsp;
 - __Merge branches__
