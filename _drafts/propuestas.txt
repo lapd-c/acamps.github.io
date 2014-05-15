@@ -1,1 +1,4 @@
 Tools
+Developing a dashboard
+http://dev.ducksboard.com/apidoc/
+http://www.chartjs.org/docs/
