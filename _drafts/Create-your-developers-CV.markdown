@@ -1,5 +1,5 @@
 ---
-title:Create your developers CV
+title: "Create your developers CV"
 layout: post
 ---
 - coderwall  
