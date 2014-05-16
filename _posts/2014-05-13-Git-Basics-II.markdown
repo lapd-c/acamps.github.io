@@ -14,32 +14,34 @@ In this follow-up article, a few interesting points of GIT have been highlighted
 - __How to create a git remote__
 
 In the folder you want to place the git remote
-cd /folder/you/choose
-mkdir folderForGitRemote
-cd folderForGitRemote
-git init --bare
+{% highlight bash %}
+$cd /folder/you/choose
+$ mkdir folderForGitRemote
+$ cd folderForGitRemote
+$ git init --bare
+{% endhighlight %}
 
 Then you have a local folder that you want to copy to the remote, but first you have to initialise it as a git repository.
 {% highlight bash %}
 # Without the --bare option this time
-cd /folder/that/contains/your/information
-git init
+$ cd /folder/that/contains/your/information
+$ git init
 {% endhighlight %}
 
 {% highlight bash %}
-git fetch
-git remote -v
-git remote add name url
+$ git fetch
+$ git remote -v
+$ git remote add name url
 {% endhighlight %}
 Url in this scenario could even be `file://` element, which makes everything very interesting, and allows to use Dropbox very interestingly.
 
 {% highlight bash %}
-git pull origin
+$ git pull origin
 {% endhighlight %}
 To change the default origin or branch, edit your `.git/config` file
 or
 {% highlight bash %}
-$ git pull -u remote-name 
+$ git pull -u remote-name
 #(git config https://www.kernel.org/pub/software/scm/git/docs/git-push.html)
 {% endhighlight %}
 &nbsp;
