@@ -1,0 +1,45 @@
+---
+title: "Git-III"
+layout: post
+date:   2014-05-15 20:40:00
+---
+# The importance of good commits and git diff.
+
+It is important to, even usually it is easier to just `git add -A`, and commit a full coding (or several) sessions, not do so.
+
+It is important to make *relevant* commits. Select files in semantic groups, and commit them together. In this way you can then follow what's been going on on a branch with much ease. And all that is going on will be reported, not a generic message like:
+{% highlight bash %}
+$ git commit -m "Add changes. heh. Works better -- I guess."
+{% endhighlight %}
+
+But sometimes we will quickly commit changes, or add them too fast. If we have changes added but not yet commited we can check them with:
+{% highlight bash %}
+$ git diff --cached
+# If we want to store the changes to apply them back in case we mess up with git reset
+$ git diff --cached > changes.patch
+{% endhighlight %}
+
+And then we can remove this changes from the staged commit, without modifying the files.
+{% highlight bash %}
+$ git reset
+#sounds dangerous, right?
+{% endhighlight %}
+
+If something happens we can apply back the changes.
+{% highlight bash %}
+# We first run with --dry-run option, to see the resulting files.
+$ patch -p1 < changes.patch --dry-run
+# If everything looks ok, we proceed to really apply the changes
+$ patch -p1 < changes.patch
+{% endhighlight %}
+
+The `-p1` parameter refers to the relative path. Man pages can offer more assistance on that.
+
+If we haven't yet added anything, this will display all the changes.
+{% highlight bash %}
+$ git diff
+{% endhighlight %}
+
+Finally, my recommendation is to `git add` file by file, when those files together make sense, commit that and make a relevant comment. You'll see your workflow making much more sense, and your push really explaining the work you've been doing.
+
+And that's where I am right now.
