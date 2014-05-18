@@ -68,8 +68,8 @@ ul.posts span {
   float:left;
   line-height: 1.5em;
   border: 1px solid #ecf0f1;
-  padding:15px;
-  background-color: #ffffff;
+  /*padding:15px;
+  background-color: #ffffff;*/
 }
 
 .site .header a {
@@ -180,6 +180,16 @@ ul.posts span {
   padding-bottom: 2em;
 }
 
+.post.main {
+  margin-bottom: 1em;
+  background-color: #ffffff;
+  padding:15px;
+}
+
+.posts {
+  background-color: #ecf0f1;
+}
+
 /* Customized stuff */
 #sidebar {
   float:left;
@@ -202,6 +212,18 @@ ul.posts span {
   text-align: center;
 }
 
+#sidebar .latest {
+  background-color: #ffffff;
+  padding: 10px 5px 5px 5px;
+  width:90%;
+}
+
+#sidebar .latest li {
+  text-align: left;
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
 /*****************************************************************************/
 /*
 /* Media queries
@@ -210,10 +232,16 @@ ul.posts span {
 
 @media screen and (max-width:1200px) {
   .site {
+    width: 95% !important;
+  }
+  #sidebar {
+    width:95% !important;
+  }
+  #outter_container {
     width: 95%;
   }
 }
-
+/*
 @media screen and (max-width:1023px) {
   #sidebar .logo {
     background-image: none;
@@ -235,3 +263,4 @@ ul.posts span {
     margin: 0 1em 0 1em;
   }
 }
+*/
