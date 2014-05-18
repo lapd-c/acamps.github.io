@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #ecf0f1;
   font: 1em 'Raleway','Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight:200;
   text-align: center;
@@ -25,8 +25,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #71dabd; }
-a:hover   { color: #000; }
+a         { color: #61caad;font-weight:normal; }/*original color: 71dabd*/
+a:hover   { color: #000000; }
 a:visited { color: #139078; }
 
 /*****************************************************************************/
@@ -56,12 +56,20 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+#outter_container {
+  width: 1200px;
+  margin: 3em auto;
+}
+
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 650;
-  margin: 3em 2em 2em 20em;
+  width: 850px;
+  float:left;
   line-height: 1.5em;
+  border: 1px solid #ecf0f1;
+  padding:15px;
+  background-color: #ffffff;
 }
 
 .site .header a {
@@ -200,6 +208,12 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+@media screen and (max-width:1200px) {
+  .site {
+    width: 95%;
+  }
+}
+
 @media screen and (max-width:1023px) {
   #sidebar .logo {
     background-image: none;
@@ -217,7 +231,7 @@ ul.posts span {
   }
 
   .site {
-    width:95%;
+    width:800px;
     margin: 0 1em 0 1em;
   }
 }
