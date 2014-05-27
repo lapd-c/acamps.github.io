@@ -9,7 +9,7 @@ I have heard that emacs is awesome too, but more people close to me can teach me
 
 In my configuration file, `~/.vimrc` I usually turn line numbers on, configure tab to be spaces (4) end, and a few more things. Right now Paco has helped me with a few things. Actually this allows me to work with more than one file.
 
-My updated dotfiles can be found [dotfile][here].
+My updated dotfiles can be found [here][dotfile].
 
 PD: an interesting way of forcing yourself to get used to vi, is to edit terminal behaviour to emulate vi.
 
@@ -33,40 +33,49 @@ It gets a bit crazy learning vim, since everything is different, and there's a m
 
 In normal mode, the features I find more useful so far are:
 
-i   insert
-$   end of line
-w   advance word
-W   advance WORD
-b   back word
-B   back WORD
-dd  delete line
-0   start of line
-/pattern    search   fun to use with :set hlsearch
-n   next
-A   append at the end of line
-a   append
-u   undo
-.   repeat last action (which might be much more than you thing)
-G   go to the end of the document
-gg  go to the beggining of the document
-cit     change inner t   so it changes the content inside t
-:#lineNumber    Jumps to a line number
+ keystroke | action
+ --- | ---
+ i |  insert
+ $ |  end of line
+ w |  advance word
+ W |  advance WORD
+ b |  back word
+ B |  back WORD
+ dd|  delete line
+ 0 |  start of line
+ /pattern |   search   fun to use with :set hlsearch
+ n |  next
+ A |  append at the end of line
+ a |  append
+ u |  undo
+ . |  repeat last action (which might be much more than you thing)
+ G |  go to the end of the document
+ gg|  go to the beggining of the document
+ cit |    change inner t   so it changes the content inside t
+ :#lineNumber |   Jumps to a line number
 
 This last option shows to be quite awesome, since you can quickly move to a word inside quotes with /pattern, or f{char} and then cit to delete the whole content. It also works with single quote, t (tag, usefull for html), and probably something else yet to discover.
 
 Of course, the magic in vim resides in the fact that you can repeat actions super easily, that you can combine keys, and so on. I'm not going to go into deep detail, but:
 
-dw  deletes a word
-db  deletes a word back
-d0  deletes from cursor to begining of file
-d$  deletes from cursor to the end of file
+keystroke | action 
+--- | ---
+dw  | deletes a word
+db  | deletes a word back
+d0  | deletes from cursor to begining of file
+d$  | deletes from cursor to the end of file
 
 It is true that this can be done with other shortcuts in different editors like cmd+delete in mac. 
-Options I recommend and find quite usefull
-:set number       this allows to use very easilly :#numberline to jump straight there
-:set cul          adds an horizontal line below the position of the cursor, so it can be easilly spotted.
+
+Options I recommend and find quite useful:
+
+Option | Does
+--- | ---
+:set number       | this allows to use very easilly :#numberline to jump straight there
+:set cul          | adds an horizontal line below the position of the cursor, so it can be easilly spotted.
 
 And finally some options to add to your `.vimrc`, in order to work easilly with folders while in the vim file navigator.
+
 {% highlight bash %}
 let g:netrw_liststyle=3 
 let g:netrw_browse_split=4 
