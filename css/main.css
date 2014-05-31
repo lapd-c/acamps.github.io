@@ -190,6 +190,10 @@ ul.posts span {
   background-color: #ecf0f1;
 }
 
+.pagination {
+  text-align:center;
+}
+
 /* Customized stuff */
 #sidebar {
   float:left;
