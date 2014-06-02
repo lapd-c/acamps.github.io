@@ -190,6 +190,14 @@ ul.posts span {
   background-color: #ecf0f1;
 }
 
+.post.white_bg {
+  background-color: #ffffff;
+}
+
+.pagination {
+  text-align:center;
+}
+
 /* Customized stuff */
 #sidebar {
   float:left;
@@ -239,12 +247,17 @@ ul.posts span {
   }
   .site {
     width: 95% !important;
+    margin: 0 2.5%;
   }
   #sidebar {
     width:95% !important;
+    margin:0 2.5%;
   }
   #outter_container {
     width: 95%;
+  }
+  .latest {
+    margin: 0 auto;
   }
 }
 /*
