@@ -26,7 +26,7 @@ $ gem install jekyll
 If it complains just use:
 
 {% highlight bash linenu %}
-$ zsh -login
+$ zsh --login
 {% endhighlight %}
 
 To get back inside the shell in a different mode, and then you'll be able to use the `rvm use` command.

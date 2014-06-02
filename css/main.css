@@ -239,11 +239,15 @@ ul.posts span {
 /*****************************************************************************/
 
 @media screen and (max-width:1200px) {
+  .logo {
+    display:none;
+  }
   .header .extra {
     display:none;
   }
-  .header h1 {
+  .header  {
     margin-top: 2em;
+    text-align: center;
   }
   .site {
     width: 95% !important;
