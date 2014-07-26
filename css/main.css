@@ -145,6 +145,8 @@ ul.posts span {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
+  max-width: 100%;
+  white-space: pre-wrap;
 }
 
 .post ul, .post ol {
@@ -159,10 +161,13 @@ ul.posts span {
 
 .post pre code {
   border: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .post pre code span {
-  white-space: normal;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 /* terminal */
