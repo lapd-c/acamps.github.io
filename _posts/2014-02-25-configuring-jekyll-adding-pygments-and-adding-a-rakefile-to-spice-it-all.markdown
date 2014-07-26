@@ -1,8 +1,8 @@
 ---
-title: "Configuring Jekyll, adding pygments, and adding a Rakefile to spice it all. On Mac OS X Mavericks."
+title: "Configuring Jekyll with pygments"
 layout: post
 tags : [how-to, jekyll]
-categories: bloging
+categories: blogging
 ---
 If you were updating from a previous Mac OS X version to Mavericks, most likely you have ruby on the system, but not a version you want to keep. So you'll first will need to:
 
