@@ -106,7 +106,7 @@ ul.posts span {
 .site .meta {
   color: #aaa;
 }
-
+/** REMOVED footer from html
 .site .footer {
   font-size: 80%;
   color: #666;
@@ -133,7 +133,7 @@ ul.posts span {
 .site .footer .rss img {
   border: 0;
 }
-
+**/
 /*****************************************************************************/
 /*
 /* Posts
@@ -191,6 +191,7 @@ ul.posts span {
 }
 
 .post.white_bg {
+  padding: 10px;
   background-color: #ffffff;
 }
 
@@ -222,14 +223,28 @@ ul.posts span {
 
 #sidebar .latest {
   background-color: #ffffff;
-  padding: 10px 5px 5px 5px;
   width:90%;
+}
+
+#sidebar .latest .box {
+  padding: 10px 5px 5px 5px;
+}
+
+#sidebar .latest h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 5px;
 }
 
 #sidebar .latest li {
   text-align: left;
   list-style-type: none;
   padding-bottom: 5px;
+}
+
+#disqus_thread {
+    margin-top: 15px;
 }
 
 /*****************************************************************************/
@@ -251,12 +266,25 @@ ul.posts span {
   }
   .site {
     width: 95% !important;
-    margin: 0 2.5%;
+    margin: 0 2.5% !important;
   }
+
+  #sidebar .latest {
+    width: 95% !important;
+    margin: 0px 2.5%;
+  }
+
+  #sidebar .latest li {
+    text-align: center !important;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
   #sidebar {
-    width:95% !important;
-    margin:0 2.5%;
+    width: 100% !important;
+    margin: 0px;
   }
+
   #outter_container {
     width: 95%;
   }
