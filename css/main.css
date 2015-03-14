@@ -25,9 +25,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #61caad;font-weight:normal; }/*original color: 71dabd*/
-a:hover   { color: #000000; }
-a:visited { color: #139078; }
+a         { color: #61caad;font-weight:normal; transition: all 0.5s ease; background-color: #FFFFFF; }/*original color: 71dabd*/
+a:link:hover   { color: #FFFFFF; background-color: #61caad; }
+a:visited { color: #139078; background-color: #ffffff; transition: all 0.5s ease; background-color: #ffffff; }
+a:visited:hover   { color: #FFFFFF; background-color: #139078; }
 
 /*****************************************************************************/
 /*

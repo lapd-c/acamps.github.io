@@ -3,7 +3,7 @@ title: "Git-III"
 layout: post
 date:   2014-05-15 20:40:00
 ---
-# The importance of good commits and git diff.
+## The importance of good commits and git diff.
 
 It is important to, even usually it is easier to just `git add -A`, and commit a full coding (or several) sessions, not do so.
 
