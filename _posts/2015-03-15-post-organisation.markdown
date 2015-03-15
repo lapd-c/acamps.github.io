@@ -6,7 +6,7 @@ Since I have taken this new challenge, I need to organise my posts in an improve
 
 I haven't yet made my final move, but I'm chosing between [Pixyll][Pixyll], [HMFAYSAL](http://jekyllthemes.org/themes/hmfaysal-notepad-theme/) [Almace Scaffolding](http://jekyllthemes.org/themes/amsf/) and [Balzac](http://jekyllthemes.org/themes/balzac/), in order of preference.
 
-So probably I'll install first [Pixyll][Pyxyll], play with it a little, and then include a few elements from the other three.
+So probably I'll install first [Pixyll][Pixyll], play with it a little, and then include a few elements from the other three.
 
 There were a few elements that will be missing and that I will have to integrate manually. This include [Disqus](https://disqus.com), and a maybe a few elements from Bootstrap. I like very much the [Scrollspy](http://getbootstrap.com/javascript/#scrollspy) element, and I want to evaluate if it would be a good addition, or if it would clutter too much the design.
 
