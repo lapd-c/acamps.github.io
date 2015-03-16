@@ -32,3 +32,5 @@ That being said,some parts of logic, despite being simple, end up being quite bi
     {% endfor %}
 {% endif %}
 ```
+
+In the end, this might be extended in twig, adding a custom function. Following TWIG documentation this can be done like this: http://twig.sensiolabs.org/doc/advanced.html
