@@ -15,3 +15,7 @@ Use composer install
 
 https://github.com/okulbilisim/ojs -- as a reference
 http://php-and-symfony.matthiasnoback.nl/2011/10/symfony2-use-a-bootstrap-file-for-your-phpunit-tests-and-run-some-console-commands/ -- more info in bootstrappin
+
+https://github.com/symfony/AsseticBundle/issues/223 -- Issues with symfony
+
+issues with tests using `file_get_contents`
