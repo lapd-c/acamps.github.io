@@ -9,7 +9,7 @@
   </div>
 </footer>
 {% if site.clicky %}
-<a title="Web Statistics" href="http://clicky.com/{{ site.clicky }}"><img alt="Web Statistics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+{% if site.clicky.affiliate_image %}<a title="Web Statistics" href="http://clicky.com/{{ site.clicky }}"><img alt="Web Statistics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>{% endif %}
 <script src="//static.getclicky.com/js" type="text/javascript"></script>
 <script type="text/javascript">try{ clicky.init({{ site.clicky }}); }catch(e){}</script>
 <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/{{ site.clicky }}ns.gif" /></p></noscript>

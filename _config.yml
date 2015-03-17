@@ -9,6 +9,7 @@ url:         "http://albertcamps.io"
 # Google analytics
 google_analytics: UA-45205503-1
 clicky: 100827027
+clicky.affiliate_image: false
 
 
 # Optional features
