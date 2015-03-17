@@ -19,3 +19,5 @@ http://php-and-symfony.matthiasnoback.nl/2011/10/symfony2-use-a-bootstrap-file-f
 https://github.com/symfony/AsseticBundle/issues/223 -- Issues with symfony
 
 issues with tests using `file_get_contents`
+
+Adding a cache https://github.com/yiisoft/yii2/blob/master/.travis.yml
