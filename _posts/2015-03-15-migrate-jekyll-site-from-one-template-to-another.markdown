@@ -4,7 +4,7 @@ layout: post
 date: 2015-03-16 20:00:00
 categories: jekyll blog
 ---
-## What do I need to do to migrate my site?
+### What do I need to do to migrate my site?
 
 Apparently I could dump all my files - almost. The files in the `_post` folder are the ones to be kept, while all other content can be happilly discarted.
 
