@@ -1,13 +1,14 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Albert Camps's Journey
+email:       me@albertcamps.io
+author:      Albert Camps
+description: "A blog describing my adventures in development, productivity and data."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://albertcamps.io"
 
 # Google analytics
-google_analytics:
+google_analytics: UA-45205503-1
+
 
 # Optional features
 animated:           false
@@ -16,13 +17,13 @@ show_post_footers:  false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: albertcamps
 
 # Social icons
-show_social_icons: false
+show_social_icons: true
 github_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: albertcamps
 google_plus_id:
 linkedin_username:
 bitcoin_url:
@@ -34,7 +35,7 @@ show_sharing_icons: false
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
 share_facebook: false
-share_twitter: false
+share_twitter: true
 share_googleplus: false
 share_linkedin: false
 share_digg: false
@@ -47,6 +48,6 @@ markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     3
+paginate:     5
 sass:
   compressed: true
