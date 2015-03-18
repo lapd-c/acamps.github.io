@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Albert Camps 
+title: About me
 permalink: /about/
 ---
 Hi, my name is Albert Camps. I am a very curious guy, who's been a bit here and there. Big learning desires. Not an expert, but a journeyman.
