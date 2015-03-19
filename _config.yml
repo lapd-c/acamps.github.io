@@ -4,7 +4,7 @@ email:       me@albertcamps.io
 author:      Albert Camps
 description: "A blog describing my adventures in development, productivity and data."
 baseurl:     ""
-url:         "http://albertcamps.io"
+url:         "http://www.albertcamps.io"
 
 # Google analytics
 google_analytics: UA-45205503-1
