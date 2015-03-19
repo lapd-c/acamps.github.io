@@ -5,7 +5,7 @@ date: 2015-03-17 21:35:23
 categories: testing travis symfony2
 ---
 
-I just ended the integration of one of our applications with [Travis CI][travis], and man it has been fun. We are very lucky that our company - [Social Point](http://www.socialpoint.es) - provides all the tools we want for improving code quality purposes, so they made [Travis CI][travis] available to all of us. Then I started spending a few spare moments on configuring this _fantastic_ tool, just for the fun of it.
+I just ended the integration of one of our applications with [Travis CI][travis], and man it has been fun. We are very lucky that our company - [Social Point](http://engineering.socialpoint.es) - provides all the tools we want for improving code quality purposes, so they made [Travis CI][travis] available to all of us. Then I started spending a few spare moments on configuring this _fantastic_ tool, just for the fun of it.
 
 The premises were _**easy**_:
 
