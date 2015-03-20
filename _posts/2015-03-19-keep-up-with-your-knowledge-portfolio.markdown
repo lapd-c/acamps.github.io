@@ -44,7 +44,7 @@ A few recommendations that I am happy to apply myself.
 * Find a small project to work on your spare time that helps you apply and think about possible uses of the technologies, or languages you want to learn
 * Get _involved_ with the community. That can mean programming for your city, or attending _programming dojos_, [meetups][meet] or similar activities.
 
-The first option might not look like much, but compared to most of your peers --or your_ not-reading-self_- it will make a _difference_.
+The first option might not look like much, but compared to most of your peers --or your _not-reading-self_- it will make a _difference_.
 
 ----
 
