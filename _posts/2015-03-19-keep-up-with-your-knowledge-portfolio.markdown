@@ -4,7 +4,9 @@ layout: post
 date: 2015-03-19 22:33:24
 categories: improvement
 ---
-In the fantastic book [The Pragmatic Programmer][pragmatic] there's a section fully dedicated to your *knowledge portfolio* and how you should keep it updated and meaningful. But first things first.
+In the fantastic book [The Pragmatic Programmer][pragmatic] there's a section fully dedicated to your *knowledge portfolio* and how you should keep it updated and meaningful. I recommend you read it.
+
+But first things first.
 
 ### What is a knowledge portfolio?
 A knowledge portfolio, is a place where you keep all of your knowledge related **objectevies** and **accomplishments**.
