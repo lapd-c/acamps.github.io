@@ -1,12 +1,12 @@
 ---
-title: "Keep up your rythm with your <em>Knowledge portfolio</em>"
+title: "Keep up your rythmn with your <em>Knowledge portfolio</em>"
 layout: post
 date: 2015-03-19 22:33:24
 categories: improvement
 ---
 In the fantastic book [The Pragmatic Programmer][pragmatic] there's a section fully dedicated to your *knowledge portfolio* and how you should keep it updated and meaningful. I recommend you read it.
 
-But first things first.
+First things first.
 
 ### What is a knowledge portfolio?
 A knowledge portfolio, is a place where you keep all of your knowledge related **objectives** and **accomplishments**.
@@ -18,7 +18,7 @@ The _relevant part_ about a Knowledge portfolio is that it must contain your **o
 ### How can I keep track of my knowledge portfolio?
 Right now I enjoy working with [vimwiki][vim], and the _general recommendation_  is to use plain-text notes.
 
-This means almost _anything_, from [Evernote][ever] to using a [git][git] server -like [github][github] or [bitbucket][bit]- with notes in text files.
+This means almost _anything_, from [Evernote][ever] to using a [git][git] server - like [github][github] or [bitbucket][bit]- with notes in text files.
 
 [Hackpad][hack] has found a path into my heart too.
 
