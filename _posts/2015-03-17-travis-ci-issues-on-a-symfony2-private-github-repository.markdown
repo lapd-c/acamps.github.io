@@ -84,7 +84,7 @@ First we need to generate our **token**, that will authenticate us and increase 
 curl -u 'githubuser' -d '{"note":"Your Application"}' https://api.github.com/authorizations
 ```
 
-Then we add yet another `before_script` step to the configuration in order to set up our freshly cropped github token:
+Then we add yet another `before_script` step to the configuration in order to set up our freshly cropped Github token:
 
 ```
   - travis_retry composer config --global github-oauth.github.com tokeNtokEntoKentOkenToken

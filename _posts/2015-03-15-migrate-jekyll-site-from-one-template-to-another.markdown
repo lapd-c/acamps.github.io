@@ -6,10 +6,10 @@ categories: jekyll blog
 ---
 ### What do I need to do to migrate my site?
 
-Apparently I could dump all my files - almost. The files in the `_post` folder are the ones to be kept, while all other content can be happilly discarted.
+Apparently I could dump all my files - almost. The files in the `_post` folder are the ones to be kept, while all other content can be happily discarded.
 
-I'm not very keen on this, since I have been working on my page for a while, but lately my links were looking horrible, so changing is a must.
+I'm not keen on this, since I have been working on my page for a while, but lately my _links_ were looking horrible, so changing is a must for me.
 
-Moving from one template to another is easy, but now I noticed I want to incorporate more elements into the template that I would like to recognise.
+Moving from one template to another is easy, but now I noticed I want to incorporate more elements into the template that I would like to recognize.
 
 **An interesting option** is to create my own. I'll keep this in mind, maybe for a next occasion.

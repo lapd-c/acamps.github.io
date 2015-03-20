@@ -1,10 +1,10 @@
 ---
-title: "Post organisation"
+title: "Post organization"
 layout: post
 ---
-Since I have taken this new challenge, I need to organise my posts in an improved way. This will come naturally with the help of a new redesign.
+Since I have taken this new challenge, I need to organize my posts in an improved way. This will come naturally with the help of a new redesign.
 
-I haven't yet made my final move, but I'm chosing between [Pixyll][Pixyll], [HMFAYSAL](http://jekyllthemes.org/themes/hmfaysal-notepad-theme/) [Almace Scaffolding](http://jekyllthemes.org/themes/amsf/) and [Balzac](http://jekyllthemes.org/themes/balzac/), in order of preference.
+I haven't yet made my final move, but I'm choosing between [Pixyll][Pixyll], [HMFAYSAL](http://jekyllthemes.org/themes/hmfaysal-notepad-theme/) [Almace Scaffolding](http://jekyllthemes.org/themes/amsf/) and [Balzac](http://jekyllthemes.org/themes/balzac/), in order of preference.
 
 So probably I'll install first [Pixyll][Pixyll], play with it a little, and then include a few elements from the other three.
 
