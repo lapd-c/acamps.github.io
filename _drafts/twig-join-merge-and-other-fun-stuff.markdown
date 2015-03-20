@@ -7,6 +7,7 @@ Not much logic should be created in a view.
 That being said,some parts of logic, despite being simple, end up being quite big, but it doesn't make _much sense_ have it in an external controller.
 
 ```
+{% raw %}
 {% if tags is defined %}
     {% for tag in tags %}
         {% set active = false %}
@@ -31,6 +32,7 @@ That being said,some parts of logic, despite being simple, end up being quite bi
         {% endif %}
     {% endfor %}
 {% endif %}
+{% endraw %}
 ```
 
 In the end, this might be extended in twig, adding a custom function. Following TWIG documentation this can be done like this: http://twig.sensiolabs.org/doc/advanced.html
