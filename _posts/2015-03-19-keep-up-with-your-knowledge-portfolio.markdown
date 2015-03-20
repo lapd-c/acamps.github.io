@@ -9,7 +9,7 @@ In the fantastic book [The Pragmatic Programmer][pragmatic] there's a section fu
 But first things first.
 
 ### What is a knowledge portfolio?
-A knowledge portfolio, is a place where you keep all of your knowledge related **objectevies** and **accomplishments**.
+A knowledge portfolio, is a place where you keep all of your knowledge related **objectives** and **accomplishments**.
 
 There you may have which programming languages you want to learn. Your side projects and what is the aim of this side projects.
 
