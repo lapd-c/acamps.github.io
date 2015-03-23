@@ -29,6 +29,8 @@ Achieve a state of peaceful programming <em>Kaizen</em>. If you don't know what 
 </footer>
 </blockquote>
 
+Let me know in the _comments section_ if you find this article **useful**!
+
 [git]: http://www.git-scm.com
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
 [feature]: http://danielkummer.github.io/git-flow-cheatsheet/#features
