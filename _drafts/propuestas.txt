@@ -22,3 +22,6 @@ http://movethewebforward.org/
 
 
 SQL 
+
+git - security
+http://stackoverflow.com/questions/872565/remove-sensitive-files-and-their-commits-from-git-history
