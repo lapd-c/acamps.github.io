@@ -2,3 +2,23 @@ Tools
 Developing a dashboard
 http://dev.ducksboard.com/apidoc/
 http://www.chartjs.org/docs/
+
+Why stay in Jekyll when pelican is available?
+http://arunrocks.com/moving-blogs-to-pelican/
+https://middlemanapp.com/
+https://github.com/barryclark/jekyll-now
+
+Jekyll level up
+https://github.com/masukomi/JekyllMail
+http://shamadeh.com/blog/web/2013/12/28/MakeABlogSocial.html
+
+Free blogging
+https://divshot.com/blog/static-blogging/blogging-with-jekyll-and-octopress/
+
+
+Learning
+http://www.smashingmagazine.com/2012/03/30/publish-what-you-learn/
+http://movethewebforward.org/
+
+
+SQL 
