@@ -9,7 +9,7 @@ It is easy to forget your `export` on private keys on your [dotfiles][dotfiles].
 
 But **I do**. And today, as I was automating a few things on my machine - I will talk about them soon enough-, I committed more than I should have.
 
-[Amazon][amazon] triggered an alarm for an exposed **token** and the Systems department at [Social Point][sp] notified me, just 2 hours after my fatal push.
+[Amazon][amazon] triggered an alarm for an exposed **token** and Andrés from the Systems department at [Social Point][sp] notified me, just 2 hours after my fatal push.
 
 Well, luckily at [Stack overflow][stack] it is easy to find solution to this kind of questions.
 
