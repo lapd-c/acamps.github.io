@@ -55,7 +55,7 @@ Today I won't joke with my cite.
 </footer>
 </blockquote>
 
-Have you ever had similar issues? How you solve this?
+Have you ever had similar issues? How do you solve this?
 
 [dotfiles]: http://www.github.com/acamps/dotfiles
 [stack]: http://stackoverflow.com/questions/872565/remove-sensitive-files-and-their-commits-from-git-history
