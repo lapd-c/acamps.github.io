@@ -28,7 +28,7 @@ I had to add to my `.zshrc` a few new lines indicating where the _sensitive_ inf
 source private/private_keys.txt
 ```
 
-And this `aws_keys.txt` file contains what should be hidden:
+And this `private_keys.txt` file contains what should be hidden:
 
 ```bash
 export APP_PRIVATE_KEY=<key>
