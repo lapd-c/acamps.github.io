@@ -25,7 +25,7 @@ After that, I asked to Andrés what I could do to avoid this again, and he gave 
 I had to add to my `.zshrc` a few new lines indicating where the _sensitive_ information would be placed now. Following Andrés' advice, I decided to **create a new folder called `private`** in case I needed to put more sensitive information there in the future:
 
 ```bash
-source private/aws_keys.txt
+source private/private_keys.txt
 ```
 
 And this `aws_keys.txt` file contains what should be hidden:
