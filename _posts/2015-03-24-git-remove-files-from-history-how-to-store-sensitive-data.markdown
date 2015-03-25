@@ -5,13 +5,11 @@ categories: git security
 ---
 Today I had a _funny_ issue at work. Note that where I say _funny_ I mean serious, and distressful.
 
-It is easy to forget your `export` on private keys on your [dotfiles][dotfiles]. This usually means no harm, since most people do not have an open repository with their dotfiles.
+I committed sensitive information to a public **git** repository. I won't disclose more, for security reasons, but I will share how I _cleaned_ the mess up.
 
-But **I do**. And today, as I was automating a few things on my machine - I will talk about them soon enough-, I committed more than I should have.
+An alarm was triggered for an exposed token and Andrés from the Systems department at [Social Point][sp] notified me, just 2 hours after my fatal push.
 
-[Amazon][amazon] triggered an alarm for an exposed **token** and Andrés from the Systems department at [Social Point][sp] notified me, just 2 hours after my fatal push.
-
-Well, luckily at [Stack overflow][stack] it is easy to find solution to this kind of questions.
+Luckily at [Stack overflow][stack] it is easy to find solution to this kind of questions.
 
 ```bash
 git filter-branch --index-filter \
@@ -33,8 +31,9 @@ source private/aws_keys.txt
 And this `aws_keys.txt` file contains what should be hidden:
 
 ```bash
-export AWS_KEY=awskey
-export AWS_SECRET=awssecret
+export APP_PRIVATE_KEY=<key>
+export APP_SECRET_SECRET=<secret>
+export RESOURCE_SECURITY_TOKEN=<token>
 ```
 
 Finally, I have had to add the `private` folder to `.gitignore` to avoid more painful mistakes:
@@ -63,4 +62,4 @@ Have you ever had similar issues? How do you solve this?
 [amazon]: http://aws.amazon.com/?nc1=f_ls
 [script]: http://dound.com/2009/04/git-forever-remove-files-or-folders-from-history/
 [soq]: http://stackoverflow.com/questions/7194939/git-change-one-line-in-file-for-the-complete-history
-[sp]: http://engineering.socialpoint.es
+[sp]: http://www.socialpoint.es
