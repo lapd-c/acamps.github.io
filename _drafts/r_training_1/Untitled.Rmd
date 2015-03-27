@@ -250,6 +250,19 @@ as.POSIXct("12-04-26 16:27:09", format="%y-%m-%d %H:%M:%S")
 # There is also POSIXlt when working with dates
 weekdays(Sys.Date())
 # With google search for dateformats
+
+#Operate with dates
+Sys.Date() + 10
+seq(from=Sys.Date(), to=Sys.Date()+365, by="month")
+```
+
+```{r}
+install.packages("lubridate")
+library("lubridate")
+ymd_hms(as.POSIXct("2012-04-26 16:27:09"))
+
+bday <- dmy_hms("26031979 07:21:32", tz="America/Bogota")
+with_tz(bday)
 ```
 
 
