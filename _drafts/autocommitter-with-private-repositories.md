@@ -17,3 +17,5 @@ Host github.com-me
     HostName github.com
     User git
     IdentityFile ~/.ssh/id_rsa_me
+
+https://help.github.com/articles/generating-ssh-keys/
