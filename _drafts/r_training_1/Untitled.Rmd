@@ -1,0 +1,126 @@
+---
+title: "r_class_1"
+author: "Albert Camps"
+date: "27 de marzo de 2015"
+output: html_document
+runtime: shiny
+---
+
+This R Markdown document is made interactive using Shiny. Unlike the more traditional workflow of creating static reports, you can now create documents that allow your readers to change the assumptions underlying your analysis and see the results immediately. 
+
+To learn more, see [Interactive Documents](http://rmarkdown.rstudio.com/authoring_shiny.html).
+
+## Inputs and Outputs
+
+You can embed Shiny inputs and outputs in your document. Outputs are automatically updated whenever inputs change.  This demonstrates how a standard R plot can be made interactive by wrapping it in the Shiny `renderPlot` function. The `selectInput` and `sliderInput` functions create the input widgets used to drive the plot.
+
+```{r, echo=FALSE}
+inputPanel(
+  selectInput("n_breaks", label = "Number of bins:",
+              choices = c(10, 20, 35, 50), selected = 20),
+  
+  sliderInput("bw_adjust", label = "Bandwidth adjustment:",
+              min = 0.2, max = 2, value = 1, step = 0.2)
+)
+
+renderPlot({
+  hist(faithful$eruptions, probability = TRUE, breaks = as.numeric(input$n_breaks),
+       xlab = "Duration (minutes)", main = "Geyser eruption duration")
+  
+  dens <- density(faithful$eruptions, adjust = input$bw_adjust)
+  lines(dens, col = "blue")
+})
+```
+
+## Embedded Application
+
+It's also possible to embed an entire Shiny application within an R Markdown document using the `shinyAppDir` function. This example embeds a Shiny application located in another directory:
+
+```{r, echo=FALSE}
+shinyAppDir(
+  system.file("examples/06_tabsets", package="shiny"),
+  options=list(
+    width="100%", height=550
+  )
+)
+```
+
+Note the use of the `height` parameter to determine how much vertical space the embedded application should occupy.
+
+You can also use the `shinyApp` function to define an application inline rather then in an external directory.
+
+In all of R code chunks above the `echo = FALSE` attribute is used. This is to prevent the R code within the chunk from rendering in the document alongside the Shiny components.
+
+----
+#Session 1 of R training
+Preferences -> panes
+
+Assignations
+``` {r}
+a <- 5
+```
+echo=FALSE means that we don't want to see the code, only the output.
+
+There are default packages with data to _play_ around. Like `cars`.
+
+[R markdown](http://markdown.rstudio.com)
+
+## Working with data.
+
+### Types
+
+- Numbers: logicals(0/1), integer, numeric or double.
+- Strings (type character) -- single and double quotations have the same meaning
+- Dates
+
+## Homogeneous structures
+
+All elements of structure have the same type.
+
+- Vector
+
+```{r}
+a <- c(3,4,5)
+a[2]
+class(a)
+
+s <- c("a", "b", "c")
+class(s)
+
+# Convenient ways to create vectors
+1:5
+seq(0,100,10)
+rep("char", 3)
+
+# Vector operations
+3*a
+
+# If you have different types, it will try to mix them into the same type
+c(1,2, c(1,2))
+c(1,2,"b")
+```
+You can run commands with ctrl+<Intro>
+
+```{r}
+mat <- matrix(c(a,a,a), ncol=3)
+t(mat) # transpose
+mat[1,2]
+mat[1,]
+mat[,3]
+```
+alt + cmd + i creates a chunk for markdown
+
+- arrays (n-dimensional)
+
+### Heterogeneous structures
+
+Can contain elements of different types
+
+- lists:
+
+```{r}
+myList(
+  country = c()  
+)
+```
+
