@@ -119,8 +119,137 @@ Can contain elements of different types
 - lists:
 
 ```{r}
-myList(
-  country = c()  
+myList <- list(
+  country = c("Portugal", "Italy", "Spain", "Greece"),
+  GDPgrowth = c(0.1,0.5,2,-1.5)
 )
 ```
+
+Use dollar sign (%) to call elements in lists:
+
+```{r}
+myList$country
+# to know the names of the elements of a list:
+names(myList)
+summary(myList)
+summary(myList$country)
+```
+
+- Data frames
+```{r}
+myDF <- data.frame(
+  country = c("Portugal", "Italy", "Spain", "Greece"),
+  GDPgrowth = c(0.1,0.5,2,-1.5),
+  k = 3
+)
+
+#selecting elements of a dataframe
+myDF[1,]
+myDF[,3]
+myDF[,"GDPgrowth"]
+myDF[,c("GDPgrowth","k")]
+# We can change the names of the columns
+names(myDF)
+names(myDF) <- c("coun", "gpd", "g")
+
+# If you want just a column you can use the name notation
+myDF$gpd
+
+#subsetting
+positive_g <- myDF$gpd>0
+myDF[positive_g,]
+myDF[myDF$coun == "Spain",]
+myDF
+
+# Recycle condition for selecting rows when it does not have the ssame length as data.frame
+
+alternate <- c(TRUE, FALSE)
+myDF[alternate,]
+
+# Useful functions for dfs:
+nrow(myDF)
+ncol(myDF)
+dim(myDF)
+
+# To look at the first or last rows of my data frame
+head(myDF,2)
+tail(myDF,2)
+
+View(myDF)
+summary(myDF)
+```
+
+The `with` function can be quite convenient:
+
+```{r}
+# Instead of
+sum(iris$Sepal.Length*iris$Sepal.Width/sum(iris$Petal.Length*iris$Petal.Width))
+# we can write
+with(iris, sum(Sepal.Length*Sepal.Width/sum(Peta.Length*Petal.Width)))
+```
+
+### Factor variables
+Categorical variables, displayed a name but internally it is saved as a integer.
+
+```{r}
+# Create new variable in df
+mtcars2 <- mtcars
+mtcars2$hp_cat <- "High"
+mtcars2[mtcars2$hp < mean(mtcars2$hp),]$hp_cat <- "Low"
+mtcars2$hp_factor <- factor(mtcars2$hp_cat)
+
+levels(mtcars2$hp_factor)
+mtcars2["Datsun 710", ]$hp_factor <- "Mid"
+mtcars2["Datsun 710",]$hp_cat <- "Mid"
+```
+
+Beware of factors, since some times you won't want your imported strings to become factors [Default behaviour in R]
+
+### Converting between types
+
+```{r}
+mtcars2$cyl_factor <- as.factor(mtcars2$cyl)
+mtcars2$cyl_factor
+levels(mtcars2$cyl_factor)
+mtcars2$mpg_str <- as.character(mtcars2$mpg)
+#View(mtcars2)
+is.factor(mtcars2$cyl)
+is.factor(mtcars2$cyl_factor)
+```
+
+### Manipulating strings
+
+concatenating strings with `paste`:
+
+```{r}
+paste("Social", "Point")
+paste("Social", "Point", sep="")
+sp <- paste("Social", "Point", sep=".")
+paste(month.abb, collapse="/")
+```
+In your chunk you can have error=TRUE to display the error
+```{r}
+nchar(sp)
+nchar(month.abb)
+toupper(month.abb)
+tolower(month.abb)
+substr("SocialPoint", 1,6)
+# Regular expressions
+grepl("Poi", )
+gsub("Poi", "XXX", sp)
+```
+
+## Dates and times
+
+```{r}
+Sys.Date()
+as.numeric(Sys.Date())
+as.Date("20150323", format="%Y%m%d")
+as.Date("12-04-26 16:27:09", format="%y-%m-%d %H:%M:%S")
+as.POSIXct("12-04-26 16:27:09", format="%y-%m-%d %H:%M:%S")
+# There is also POSIXlt when working with dates
+weekdays(Sys.Date())
+# With google search for dateformats
+```
+
 
