@@ -23,11 +23,11 @@ disqus_shortname: albertcamps
 
 # Social icons
 show_social_icons: true
-github_username:
+github_username: acamps
 stackoverflow_id:
 twitter_username: albertcamps
 google_plus_id:
-linkedin_username:
+linkedin_username: acampsll
 bitcoin_url:
 paypal_url:
 flattr_button:
@@ -49,7 +49,7 @@ share_stumbleupon: false
 markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
+permalink:    date #pretty
 paginate:     5
 sass:
   compressed: true
