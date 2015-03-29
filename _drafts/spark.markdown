@@ -13,3 +13,4 @@ http://www.cloudera.com/content/cloudera/en/training/courses/spark-training.html
 
 https://twitter.com/ignasi35
 
+A couple of weeks ago we received Spark training at Social Point. The talk was given by [@ignasi35](http://www.twitter.com/ignasi35)

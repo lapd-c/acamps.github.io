@@ -25,3 +25,79 @@ SQL
 
 git - security
 http://stackoverflow.com/questions/872565/remove-sensitive-files-and-their-commits-from-git-history
+
+
+Github training foundation
+
+semantic UI
+
+Testing compression encodings with redshift
+
+
+Anger management
+
+boostblogtraffic.com/posting-every-day/
+
+download articles in latex-pdf
+
+who should start do this everyday challenges?
+
+what is an e-t-l ?
+
+deploy notifications on hipchat
+
+code climate
+coveralls code quality, code coverage
+
+how to add a transactions log for user, and use them to generate macros.
+
+sql partition by
+
+introduction to spark.
+
+code cleanups
+
+travis python
+
+keeping projects flexible
+ivoox
+how to write proper disclaimer
+
+luna smart bed
+
+caches and redis
+
+tmux level up
+
+Mail subscription
+http://eepurl.com/bihN2D
+
+spark tricks
+
+create a training based on stages-skills separations
+
+dotfiles auto install script
+
+write an alfred plugin for custom data
+
+auto evolutionary systems.
+
+retrospective notes collection (goals, not tasks, proactively asks needs before.)
+
+logging policy
+
+curl localhost/server-status?auto
+
+list of project mistakes
+
+create sql from sql
+
+riak vm
+
+sort a list of dependences.
+
+studio white screen on upgrading R... delete rframework. .RData .Rhistory .rstudio-desktop .Rapp-history
+
+shiny.rstudio.com
+
+R training

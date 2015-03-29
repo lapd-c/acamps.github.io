@@ -7,3 +7,5 @@ http://nvie.com/posts/a-successful-git-branching-model/
 posar updates també a jekyll
 git push origin newfeature
 git push origin :featuretoremove
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
