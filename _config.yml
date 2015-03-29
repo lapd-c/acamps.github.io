@@ -55,3 +55,12 @@ sass:
   compressed: true
 gems:
   - jekyll-sitemap
+
+
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      layout: "post"

@@ -1,7 +1,7 @@
 ---
+layout: post
 title: "What is Octopress? Why use it?"
 date: 2015-03-28T21:06:15+01:00
-layout: post
 categories: blog
 ---
 The answer to what is [Octopress][octo], may be changing at the moment of writing this article. On [this article][article] they mention _it was_ a [jekyll][jekyll] custom _theme_ with a few extra scripts to make your blogging easier.
