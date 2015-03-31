@@ -1,3 +1,17 @@
+WEEKLY CONTENT
+--------------
+1 - Discuss one article a week
+2 - Discuss one video a week
+3 - Work on open source
+4 - Work on testing
+5 - Work on refactoring
+6 - Updates
+7 - MOOC
+8 - Books
+9 - Training on something I know
+
+
+
 Tools
 Developing a dashboard
 http://dev.ducksboard.com/apidoc/
@@ -21,7 +35,7 @@ http://www.smashingmagazine.com/2012/03/30/publish-what-you-learn/
 http://movethewebforward.org/
 
 
-SQL 
+SQL
 
 git - security
 http://stackoverflow.com/questions/872565/remove-sensitive-files-and-their-commits-from-git-history
@@ -101,3 +115,5 @@ studio white screen on upgrading R... delete rframework. .RData .Rhistory .rstud
 shiny.rstudio.com
 
 R training
+
+ATOM
