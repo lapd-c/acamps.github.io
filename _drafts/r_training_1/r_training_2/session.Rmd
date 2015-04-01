@@ -1,0 +1,23 @@
+---
+title: "R-training-session-2"
+author: "Albert Camps"
+date: "1 de abril de 2015"
+output: html_document
+runtime: shiny
+---
+
+To connect to our database:
+
+```{r}
+library(RPostgreSQL)
+drv <- dbDriver("PostgreSQL")
+spdb <- dbConnect(
+   drv,
+   host = "jh-redshift.socialpointgames.com",
+   port = "5439",
+   dbname = "datawarehouse",
+   user = "acamps",
+   password = "********"
+)
+dbListTables(spdb)
+```
