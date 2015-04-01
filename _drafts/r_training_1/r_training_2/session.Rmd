@@ -21,3 +21,66 @@ spdb <- dbConnect(
 )
 dbListTables(spdb)
 ```
+
+```{r}
+jh_user <-dbGetQuery(spdb, "select * from jurassichunter.t_user limit 1000")
+jh_session <- dbGetQuery(spdb, "select * from jurassichunter.t_session limit 1000")
+```
+
+Inspect the data:
+
+```{r}
+str(jh_user)
+str(jh_session)
+```
+
+## Data wrangling
+
+Take a sample of users:
+
+```{r}
+#To take a sample, we could either pass a range, or we could pass a logical vector with the same lenght, and true for the ones selected.
+# Or we could have a vector indicating which ids we would be using
+sample1000 <- sample(1:nrow(jh_user), 1000)
+users1000 <- jh_user[sample1000,]
+jh_user[,]
+
+# Fraction. We indicate how many we want based on a percentage.
+sample2pct <- runif(nrow(jh_user)) <= 0.02
+users2pct <- jh_user[sample2pct,]
+
+#Finally we could do the same subsetting.
+users2pctSubset <- subset(
+  jh_user,
+  subset = sample2pct,
+  select = c(user_id, register_ip_country, is_tester)
+)
+
+sum(sample2pct)
+#it is approximatedly the 2%, and usually this will be good enough.
+sum(sample2pct/nrow(jh_user))
+
+# let's put them together
+
+#but this will not work, because they have not the same columns
+users0 <- rbind(users1000, users2pct)
+
+users0 <- rbind(users1000[, names(users2pct)], users2pct)
+
+```
+
+- Remove duplicates: 
+
+```{r}
+dups <- duplicated(users0$user_id)
+users1 <- users0[!dups,]
+nrow(users0)
+nrow(users1)
+```
+
+Keep Australians and Spaniards and remove testers
+
+```{r}
+str(users0)
+```
+
