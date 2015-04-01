@@ -13,6 +13,8 @@ WEEKLY CONTENT
 11 - Business improvements
 12 - Data improvements
 
+ARTICLE: http://java.dzone.com/articles/no-time-learn
+
 Tools
 Developing a dashboard
 http://dev.ducksboard.com/apidoc/
