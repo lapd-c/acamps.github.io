@@ -13,18 +13,18 @@ library(RPostgreSQL)
 drv <- dbDriver("PostgreSQL")
 spdb <- dbConnect(
    drv,
-   host = "jh-redshift.socialpointgames.com",
-   port = "5439",
+   host = "socialpoint.com",
+   port = "1111",
    dbname = "datawarehouse",
-   user = "acamps",
-   password = "********"
+   user = "user",
+   password = "*****"
 )
 dbListTables(spdb)
 ```
 
 ```{r}
 jh_user <-dbGetQuery(spdb, "select * from jurassichunter.t_user limit 1000")
-jh_session <- dbGetQuery(spdb, "select * from jurassichunter.t_session limit 1000")
+jh_session <- dbGetQuery(spdb, "select * from jurassichunter.t_session ")
 ```
 
 Inspect the data:
@@ -82,5 +82,99 @@ Keep Australians and Spaniards and remove testers
 
 ```{r}
 str(users0)
+spaniards <- users0$register_ip_country == "ES"
+australians <- users0$register_ip_country == "AU"
+not_testers <- !users0$is_tester
+# YOu have it here. NOTE: Logical selectors are single here, not double.
+users0[(spaniards | australians) & not_testers,]
+
+# a bit more verbose
+sp_users <-users0[spaniards,]
+au_users <- users0[australians,]
+sp_not_testers <- !sp_users$is_tester
+sp_selected <- sp_users[sp_not_testers,]
+au_not_testers <- !au_users$is_tester
+au_selected <- au_users[au_not_testers,]
+total <- c(au_selected, sp_selected)
+
+# or doing a condition straight
+es_au_nontest <- (users1$register_ip_country == "ES" | users1$register_ip_country == "AU") & users1$is_tester==FALSE
+
+# yet another solution
+es_au_nontest <- which((users1$register_ip_country == "ES" | users1$register_ip_country == "AU") & users1$is_tester==FALSE)
+users2 <- subset(subset=es_au_nontest, x=users1)
 ```
+
+Sessions: keep user_id, start and end date/times, end level. Remove missing values.
+
+```{r}
+missingValues <- is.na(jh_session$user_id) |
+  is.na(jh_session$date_session_start) | 
+  is.na(jh_session$date_session_end) |
+  is.na(jh_session$game_end_level)
+
+session0 <- subset(
+  jh_session,
+  !missingValues,
+  select = c(user_id, date_session_start, date_session_end, game_end_level)
+  )
+```
+
+How to get only the first session of a user.
+
+```{r}
+ordered_sessions <- session0[order("user_id","date_session_start"),]
+order <- order(session0$date_session_start)
+ordered_sessions <- session0[order,]
+dups <- duplicated(ordered_sessions$user_id)
+cleaned_sessions <- ordered_sessions[!dups,]
+sort_vector <- order(session0$user_id, session0$date_session_start)
+session1 <- session0[sort_vector,]
+session1 <- session1[!duplicated(session1$user_id),]
+str(ordered_sessions)
+str(cleaned_sessions)
+#head(jh_session)
+```
+
+Convert to POSIX:
+
+```{r}
+library(lubridate)
+session1$date_session_start <- ymd_hms(session1$date_session_start)
+session1$date_session_end <- ymd_hms(session1$date_session_end)
+```
+
+Merge users and sessions
+
+```{r}
+#by default it performs an inner join
+user_session <- merge(users2, session1, by = "user_id")
+```
+
+Session length in hours:
+
+```{r}
+user_session$session_length <- difftime(
+  user_session$date_session_end,
+  user_session$date_session_start,
+  units="hours"
+  )
+# the result is a difftime class, so we would need to convert it to operate
+user_session$session_hours <- as.numeric(user_session$session_length)
+```
+
+Measure skill:
+
+```{r}
+user_session$skill <- user_session$game_end_level / user_session$session_hours
+
+#let's check the average
+summary(user_session$skill)
+```
+
+User segmentation by skill:
+```{r}
+
+```
+
 
