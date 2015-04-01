@@ -173,8 +173,22 @@ summary(user_session$skill)
 ```
 
 User segmentation by skill:
-```{r}
 
+```{r}
+user_session$skill_cat <- cut(
+  user_session$skill,
+  c(0,8,12,Inf)
+  )
+head(user_session)
+
+#let's create some labels to see it easier
+user_session$skill_cat <- cut(
+  user_session$skill,
+  c(0,8,12,Inf),
+  labels=c("Low", "Mid", "High")
+  
+  table(user_session$skill_cat)
+  )
 ```
 
 
