@@ -15,6 +15,9 @@ WEEKLY CONTENT
 
 ARTICLE: http://java.dzone.com/articles/no-time-learn
 
+Comment on e-mails from DZONE
+
+
 Tools
 Developing a dashboard
 http://dev.ducksboard.com/apidoc/
