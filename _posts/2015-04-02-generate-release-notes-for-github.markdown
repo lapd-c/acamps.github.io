@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Generate Release Notes for Github"
+date: 2015-04-02T22:13:44+02:00
+categories: git github
 ---
 
 [Github][gh] allows to add [releases][release]. This is convenient, but tedious. Below is a way to automate it.
