@@ -8,7 +8,7 @@ http://www.discourse.org/
 
 http://blog.bruggen.com/
 
-https://bufferimprovements.hackpad.com/
+https://bufferimprovements.hackpad.com
 
 https://hackpad.com/POS-version-final-P9AnIWScTsp
 
@@ -73,3 +73,30 @@ https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers
 https://www.andrewmunsell.com/tutorials/jekyll-by-example
 http://stackoverflow.com/questions/16422933/how-do-i-use-markdownify-in-jekyll-to-show-an-excerpt-on-the-index
 http://hyde.getpoole.com/
+
+https://wakeupaustin.wordpress.com/resources/deep-relaxation-practice/
+http://drmiller.com/learning-center/deeprelaxation/
+http://www.fragrantheart.com/cms/free-audio-meditations/relaxation/deep-relaxation
+
+http://thyselfknow.com/
+
+http://yourturnchallenge.strikingly.com/
+
+http://change.io/
+http://ionicframework.com/getting-started/
+http://moduscreate.com/5-best-mobile-web-app-frameworks-ionic-angulalrjs/
+
+http://www.raymondcamden.com/2014/07/28/my-perspective-of-working-with-the-ionic-framework
+
+https://www.atlassian.com/opensource/overview
+http://stackoverflow.com/questions/2553786/how-do-i-alias-commands-in-git
+
+https://github.com/tj/git-extras/wiki/Commands
+
+https://developer.github.com/v3/repos/releases/
+
+BUY http://www.hyperink.com/Effective-Programming-More-Than-Writing-Code-b1559
+
+https://ghost.org/
+
+http://usersknow.blogspot.com.es/2015/02/your-job-is-not-to-write-code.html?utm_content=bufferafc2b&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
