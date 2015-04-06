@@ -22,19 +22,19 @@ I plan on starting **3 sections** - Monday, Wednesday and Friday- with the topic
 
 What would you like to read about in this blog? My ideas at this moment are:
 
-* Discuss one article a week - Give my personal insight about a relevant article
-* Discuss one video a week - The same with a relevant video.
-* Work on open source - A step by step guide as I enter the open source world.
-* Work on testing - A weekly section on how to improve the testing process, even when you are not allowed at work.
-* Work on refactoring - A weekly section on how to work with legacy code and refactor when there's a chance!
-* Updates - A section on **news on the industry**
-* MOOC - Both interesting courses, or notes. Yet to define better.
-* Books - Selections, or comments on books. Maybe my notes on some books.
-* Training on something I know - I would love to do small tutorials on different things. 
-* Kata on improving something (learn to measure resources/time) | limiting resources - Programming exercises
-* Business improvements - My ideas on how to improve selected areas of business.
-* Productivity - How to better perform in general, from my point of view. My tips and tricks.
+* **Discuss one article a week** - Give my personal insight about a relevant article
+* **Discuss one video a week** - The same with a relevant video.
+* **Work on open source** - A step by step guide as I enter the open source world.
+* **Work on testing** - A weekly section on how to improve the testing process, even when you are not allowed at work.
+* **Work on refactoring** - A weekly section on how to work with legacy code and refactor when there's a chance!
+* **Updates** - A section on **news on the industry**
+* **MOOC** - Both interesting courses, or notes. Yet to define better.
+* **Books** - Selections, or comments on books. Maybe my notes on some books.
+* **Training on something I know** - I would love to do small tutorials on different things. 
+* **Kata on improving something (learn to measure resources/time) | limiting resources** - Programming exercises
+* **Business improvements** - My ideas on how to improve selected areas of business.
+* **Productivity** - How to better perform in general, from my point of view. My tips and tricks.
 
-But I'm really open to suggestions!
+But I'm really **open to suggestions**!
 
 Please, let me know in the comments section what you would prefer! Thanks for your time and kindness :)
