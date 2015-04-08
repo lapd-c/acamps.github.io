@@ -21,7 +21,7 @@ A good post is a post that provides insight. A solution difficult to come by, or
 
 So far, a few of my articles are aligned with this.
 
-### Straightforward
+### Straightforwardness
 
 This is important. We live in a world too full with information. Why lose more time than necessary when we can be more direct?
 
@@ -38,7 +38,7 @@ Second, an article as long as a tweet, is not an article.
 So having different kinds of posts/articles is the solution. With a minimum and maximum amount of words, obviously.
 
 <blockquote>
-<p>Don't tell your life when writting about technical subjects, you're wasting everyone's time.</p>
+<p>Don't tell your life when writing about technical subjects, you're wasting everyone's time.</p>
 <footer><cite>Albert Camps</cite></footer>
 </blockquote>
 
