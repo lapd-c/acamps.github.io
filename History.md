@@ -1,4 +1,19 @@
 
+n.n.n / 2015-04-08
+==================
+
+  * Update blog posts of "15-04-07"
+  * Fix formatting on last post
+  * Post 2015-04-06
+  * Content for 20150405
+  * Add new post for 20150404
+  * Move files
+  * New post for 20150403
+  * Publish draft for 20150402
+  * Preparing post for today
+  * Merge pull request #3 from acamps/feature/add-history
+  * Add history
+
 n.n.n / 2015-04-02
 ==================
 
