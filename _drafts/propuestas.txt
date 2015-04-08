@@ -13,6 +13,12 @@ WEEKLY CONTENT
 11 - Business improvements
 12 - Data improvements
 
+JS Highcharts
+READ THE DOCS
+
+http://jugal.me/
+http://ahumbleopinion.com/customizing-highcharts-tooltip-positioning/
+
 ARTICLE: http://java.dzone.com/articles/no-time-learn
 
 Comment on e-mails from DZONE
