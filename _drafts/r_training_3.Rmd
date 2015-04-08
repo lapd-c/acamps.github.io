@@ -1,0 +1,84 @@
+---
+title: "session_3"
+author: "Albert Camps"
+date: "8 de abril de 2015"
+output: html_document
+runtime: shiny
+---
+```{r}
+
+library(RPostgreSQL)
+drv <- dbDriver("PostgreSQL")
+spdb <- dbConnect(
+ drv,
+ host = "jh-redshift.socialpointgames.com",
+ port = "5439",
+ dbname = "datawarehouse",
+ user = "admin",
+ password = "rEL2QjKQRq6qDc"
+)
+
+install.packages(c("dplyr", "tidyr"))
+library(dplyr)
+library(tityr)
+install.packages("hflights")
+library(hflights)
+
+hf_tbl <- tbl_df(hflights)
+glimpse(hf_tbl)
+filter(hf_tbl, Origin == "IAH")
+sample_n(hf_tbl, 5)
+sample_frac(hf_tbl, 0.01)
+#Select rows by position, by row number
+slice(hf_tbl, 10:15)
+
+#Subsetting variables, no more need for $ sign
+select(hf_tbl, Year, Month, DayofMonth)
+
+# Order is important
+select(hf_tbl, Year:DayofMonth, Origin)
+
+# When you need to find a specific from a few
+select(hf_tbl, contains("Delay"))
+
+# magic
+select(hf_tbl, one_of("Year", "Month"))
+
+select(hf_tbl, yr = Year, mon = Month) #renaming
+
+# Modifying and creating new ariables
+hf_tbl <- mutate(hf_tbl, route = paste(Origin, Dest, sep = "-"))
+
+# You can drop the column you modify using transmute
+select (hf_tbl, route)
+hf_tbl <- mutate(hf_tbl, route = tolower(route))
+```
+
+# Pipes
+```{r}
+#ugly
+hf_tbl <- tbl_df(hflights)
+hf_tbl <- filter(hf_tbl, Origin == "IAH")
+hf_tbl <- select(hf_tbl, Year:DayofMonth, Origin, Dest, Month)
+hf_tbl <- mutate(hf_tbl, route = paste(Origin, Dest, sep = "-"))
+
+#Uglier
+tbl_df(
+  mutate(
+    select(
+      filter(
+        hflights, Origin == "IAH"),
+      Year:DayofMonth, Origin, Dest, -Month),
+    route = paste(Origin, Dest, sep = "-")
+    ))
+
+# Pipes shift + command + m
+
+#better
+hflights %>%
+  tbl_df %>%
+  filter(Origin == "IAH") %>%
+  select(Year:DayofMonth, Origin, Dest, -Month) %>%
+  mutate(route = paste(Origin, Dest, sep = "-"))
+```
+
