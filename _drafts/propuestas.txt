@@ -25,6 +25,12 @@ https://www.atlassian.com/git/tutorials/git-log/summary
 http://gitready.com/advanced/2009/01/20/bend-logs-to-your-will.html
 http://www.charlestonsw.com/cleaner-git-log-with-merges/
 
+hotjar.com
+heapanalytics.com
+http://instantclick.io/
+
+Graph mixing posts with categories.
+
 JS Highcharts
 READ THE DOCS
 
