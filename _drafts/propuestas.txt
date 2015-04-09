@@ -19,6 +19,12 @@ https://github.com/blog/broadcasts
 https://help.disqus.com/customer/portal/articles/565624-adding-comment-count-links-to-your-home-page
 https://help.disqus.com/customer/portal/topics/107054-developers/articles
 
+https://www.atlassian.com/git/tutorials/git-hooks
+https://www.atlassian.com/git/tutorials/git-log/summary
+
+http://gitready.com/advanced/2009/01/20/bend-logs-to-your-will.html
+http://www.charlestonsw.com/cleaner-git-log-with-merges/
+
 JS Highcharts
 READ THE DOCS
 
