@@ -16,6 +16,9 @@ WEEKLY CONTENT
 https://guides.github.com/introduction/flow/
 https://github.com/blog/broadcasts
 
+https://help.disqus.com/customer/portal/articles/565624-adding-comment-count-links-to-your-home-page
+https://help.disqus.com/customer/portal/topics/107054-developers/articles
+
 JS Highcharts
 READ THE DOCS
 
