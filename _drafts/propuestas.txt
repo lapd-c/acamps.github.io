@@ -13,6 +13,9 @@ WEEKLY CONTENT
 11 - Business improvements
 12 - Data improvements
 
+https://guides.github.com/introduction/flow/
+https://github.com/blog/broadcasts
+
 JS Highcharts
 READ THE DOCS
 
