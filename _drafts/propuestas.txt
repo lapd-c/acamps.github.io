@@ -24,6 +24,7 @@ https://www.atlassian.com/git/tutorials/git-log/summary
 
 http://gitready.com/advanced/2009/01/20/bend-logs-to-your-will.html
 http://www.charlestonsw.com/cleaner-git-log-with-merges/
+http://www.brainpickings.org/2012/12/14/how-to-avoid-work/?utm_content=buffer63313&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 
 hotjar.com
 heapanalytics.com
