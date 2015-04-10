@@ -25,7 +25,8 @@ https://www.atlassian.com/git/tutorials/git-log/summary
 http://gitready.com/advanced/2009/01/20/bend-logs-to-your-will.html
 http://www.charlestonsw.com/cleaner-git-log-with-merges/
 
-http://techcrunch.com/2015/04/09/aws-wants-to-put-machine-learning-in-reach-of-any-developer/#.sfsq2y:1ZpL
+http://techcrunch.com/2015/04/09/aws-wants-to-put-machine-learning-in-reach-of-any-developer/#.sfsq2y:1Zp
+Analyzing logs. How to properly analyze logs tail -n 1000 /mnt/logs/dwh_importer.log | grep 8137
 
 hotjar.com
 heapanalytics.com
