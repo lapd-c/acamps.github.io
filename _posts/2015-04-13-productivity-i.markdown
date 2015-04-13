@@ -22,7 +22,7 @@ This document -which might be handwritten or electronic- is where you should wri
 Don't plan on getting it as a habit. Practice it only one week at a time.
 
 <blockquote>
-<p>Habits are difficult to create. Plan on 1-week challenges.</p>
+<p>Habits are difficult to create. Plan on 1-week challenges. Once you have conquered a week, build up from there.</p>
 <footer><cite>Albert Camps</cite></footer>
 </blockquote>
 
