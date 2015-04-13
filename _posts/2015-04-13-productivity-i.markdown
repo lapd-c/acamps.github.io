@@ -17,7 +17,7 @@ Something I want to work myself up to next Monday and that is **my first advice 
 
 # The work log
 
-This document -which might be handwritten or electronic- is where you should write down what you have accomplished every day. Write down when you started every task, and when you finished it.
+This document -which might be handwritten or electronic- is where you should write down what you have accomplished every day. Write down **when you started every task, and when you finished it**.
 
 Don't plan on getting it as a habit. Practice it only one week at a time.
 
@@ -34,6 +34,6 @@ The _work log_ brings to consciousness a few parts of the **work process** that 
 
 So, work with me, and practice the work log every day until next week! After this week I will love to hear how it went for you!
 
-_INFO_: I know there are tools for logging your work, but they usually don't allow to write the start time and the end time just like that. Try old-school and let's discuss in a week!
+_INFO_: I know there are tools for logging your work, but they usually don't allow to write the **start time** and the **end time just** like that. Try old-school and let's discuss in a week!
 
 [gtd]: http://gettingthingsdone.com/
