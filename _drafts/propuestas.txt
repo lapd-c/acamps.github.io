@@ -18,6 +18,7 @@ https://github.com/blog/broadcasts
 
 https://help.disqus.com/customer/portal/articles/565624-adding-comment-count-links-to-your-home-page
 https://help.disqus.com/customer/portal/topics/107054-developers/articles
+http://www.elconfidencial.com/tecnologia/2015-04-06/hawkers-gafas-de-sol_753986/
 
 https://www.atlassian.com/git/tutorials/git-hooks
 https://www.atlassian.com/git/tutorials/git-log/summary
