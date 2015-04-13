@@ -36,7 +36,7 @@ How could you improve a business? Food for thought for the weekend!
 
 It doesn't mean that I would not speak about the other topics. As I try this new schema of things, **I might find that alternating Learning with Katas, Productivity with Books, and Business with Refactorings and testing spice the mix a bit and the result is more maintainable for me**.
 
-<blockquote><p>Things evolve, and that is ok. You must accept change. Except when the change is super intelligent planing on end humankind.</p><footer><cite>Albert Camps</cite></footer></blockquote>
+<blockquote><p>Things evolve, and that is ok. You must accept change. Except when the change is super intelligent lizards planing on ending humankind.</p><footer><cite>Albert Camps</cite></footer></blockquote>
 
 Thanks all for your time, and hope to see you around here! Please share your opinions and thoughts.
 
