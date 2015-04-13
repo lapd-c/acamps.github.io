@@ -15,6 +15,7 @@ WEEKLY CONTENT
 
 https://guides.github.com/introduction/flow/
 https://github.com/blog/broadcasts
+http://www.bakadesuyo.com/2014/06/schedule/?utm_content=buffere208f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
 
 https://help.disqus.com/customer/portal/articles/565624-adding-comment-count-links-to-your-home-page
 https://help.disqus.com/customer/portal/topics/107054-developers/articles
