@@ -23,7 +23,7 @@ BUSINESS: JIRA inclusion.
 BUSINESS: Retrospectives. How to prepare as a developer.
 BUSINESS: How to reduce hackers, thiefs and similar.BUSINESS: How to reduce hackers, thiefs and similar.
 BUSINESS: How you give information in e-mails can influence.
-
+Ideas: reject phonecall with custom action
 https://guides.github.com/introduction/flow/
 https://github.com/blog/broadcasts
 http://www.bakadesuyo.com/2014/06/schedule/?utm_content=buffere208f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
