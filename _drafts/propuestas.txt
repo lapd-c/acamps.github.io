@@ -19,6 +19,8 @@ Script for detecting passwords before pushes.
 
 alias in different files, automated. And a few ignored.
 
+BUSINESS: How you give information in e-mails can influence.
+
 https://guides.github.com/introduction/flow/
 https://github.com/blog/broadcasts
 http://www.bakadesuyo.com/2014/06/schedule/?utm_content=buffere208f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
