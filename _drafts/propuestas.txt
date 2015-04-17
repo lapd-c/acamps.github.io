@@ -27,6 +27,9 @@ BUSINESS: http://www.inc.com/matthew-bellows/33-ways-to-encourage-mindfulness-at
 BUSINESS: Integrate exercise, and work techniques
 
 ZenGames
+
+http://www.slideshare.net/SimonHade1/the-samurai-siege-analytics-stack
+
 Ideas: reject phonecall with custom action
 https://guides.github.com/introduction/flow/
 https://github.com/blog/broadcasts
