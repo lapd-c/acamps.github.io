@@ -26,6 +26,11 @@ BUSINESS: How you give information in e-mails can influence.
 BUSINESS: http://www.inc.com/matthew-bellows/33-ways-to-encourage-mindfulness-at-work.html?cid=sf01001
 BUSINESS: Integrate exercise, and work techniques
 
+ZenGames
+
+http://www.slideshare.net/SimonHade1/the-samurai-siege-analytics-stack
+http://neo4j.com/resources/wp-overcoming-sql-strain/?mkt_tok=3RkMMJWWfF9wsRohv6jMZKXonjHpfsX97essX6%2BxlMI%2F0ER3fOvrPUfGjI4JTcdmI%2BSLDwEYGJlv6SgFTbfGMadv1LgNXRQ%3D
+
 Ideas: reject phonecall with custom action
 https://guides.github.com/introduction/flow/
 https://github.com/blog/broadcasts
