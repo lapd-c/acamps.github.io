@@ -1,3 +1,29 @@
+---
+title: "Create views from source"
+date: 2015-04-18 20:43:12
+layout: post
+categories: sql postgresql
+---
+
+In SQL it is important to know that there are things that look not automatable but they surprisingly are.
+
+For example, you can generate queries from plain SQL, using a specially formatted SELECT. If executed directly produce the views.
+
+We first explore `pg_views`.
+
+{% highlight sql %}
+SELECT * FROM pg_views;
+{% endhighlight %}
+
+The `description` field contains the rest of the query.
+
+{% highlight sql %}
+SELECT 'CREATE VIEW '+schemaname+'.'+viewname' AS '+description+';' as query from pg_views;
+{% endhighlight %}
+
+Of course, you might want to check whether the amount of fields is still the same. The following query helps you find out that.
+
+{% highlight sql %}
 SELECT n.nspname AS table_schema,
  pg_catalog.pg_get_userbyid(c.relowner) AS table_owner,
  c.relname AS table_name,
@@ -22,8 +48,10 @@ GROUP BY n.nspname,
  c.oid
 ORDER BY n.nspname,
  c.relname;
-con esto, te dice el número de campos que tiene cada vista
+{% endhighlight %}
 
-Or create a way to count number of attributes from selects
+When I have more time, I would love to create a query that can generate the VIEW with the column separated, not only inside the SELECT clause.
 
-http://dba.stackexchange.com/questions/23836/how-to-list-all-views-in-sql-in-postgresql
+<blockquote><p>Always have a SQL trick up your sleeve. You'll need it sooner than you expect.</p><footer><cite>Albert Camps</cite></footer></blockquote>
+
+What magic queries do you have? What are you capable of?
