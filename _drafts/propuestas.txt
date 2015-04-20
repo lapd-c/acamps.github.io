@@ -19,6 +19,8 @@ Script for detecting passwords before pushes.
 
 alias in different files, automated. And a few ignored.
 
+REFACTOR: better a class with not used parameters or pass 525 parameters each time.
+
 BUSINESS: JIRA inclusion. 
 BUSINESS: Retrospectives. How to prepare as a developer.
 BUSINESS: How to reduce hackers, thiefs and similar.BUSINESS: How to reduce hackers, thiefs and similar.
