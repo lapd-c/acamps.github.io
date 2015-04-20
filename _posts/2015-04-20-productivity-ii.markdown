@@ -16,11 +16,11 @@ The idea is to split your time in **slots of 25 minutes** (_pomodori_ from now o
 
 After that, you can start all over again.
 
-The main goal of this technique is to **avoid [burndown][burndown] and fatigue**.
+The main goal of this technique is to **avoid [burnout][burnout] and fatigue**.
 
 Of course, you might find your attention span **increasing** over the time.
 
-[There's people][teknopaul] who recommend using _pomodori_ with a duration longer than 25 minutes, in fact,  as long as you can concentrate. But I find this might defy the purpose of avoiding burndown and fatigue, that I mentioned before.
+[There's people][teknopaul] who recommend using _pomodori_ with a duration longer than 25 minutes, in fact,  as long as you can concentrate. But I find this might defy the purpose of avoiding [burnout][burnout] and fatigue, that I mentioned before.
 
 ### Tools
 
@@ -40,3 +40,4 @@ How did the [work log][worklog] work for you? Have you already tried the pomodor
 [pomodoro]: http://pomodorotechnique.com/
 [worklog]: http://www.albertcamps.io/productivity/2015/04/13/productivity-i.html
 [marinara]: http://www.marinaratimer.com/
+[burnout]: http://www.helpguide.org/articles/stress/preventing-burnout.htm
