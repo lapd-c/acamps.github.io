@@ -18,6 +18,8 @@ After that, you can start all over again.
 
 The main goal of this technique is to **avoid [burnout][burnout] and fatigue**.
 
+<blockquote><p>Move often to avoid mental fatigue. You are water, and water that doesn't move rots.</p><footer><cite>Albert Camps</cite></footer></blockquote>
+
 Of course, you might find your attention span **increasing** over the time.
 
 [There's people][teknopaul] who recommend using _pomodori_ with a duration longer than 25 minutes, in fact,  as long as you can concentrate. But I find this might defy the purpose of avoiding [burnout][burnout] and fatigue, that I mentioned before.
