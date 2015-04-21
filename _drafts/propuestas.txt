@@ -19,6 +19,8 @@ Script for detecting passwords before pushes.
 
 alias in different files, automated. And a few ignored.
 
+PRODUCTIVITY: include alias script, list all alias. http://ss64.com/bash/alias.html
+
 REFACTOR: better a class with not used parameters or pass 525 parameters each time.
 REFACTOR: cyclomatic complexity http://es.wikipedia.org/wiki/Complejidad_ciclom%C3%A1tica
 
