@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git Hooks - Pre-push"
+title: "Git Hooks. The pre-push hook."
 date: 2015-04-23T20:19:03+02:00
 categories: git
 tags: [git, hooks, scripts]
