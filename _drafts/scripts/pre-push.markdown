@@ -1,5 +1,5 @@
 {% set highlight bash %}
-n example hook script to verify what is about to be pushed.  Called by "git
+# An example hook script to verify what is about to be pushed.  Called by "git
 # push" after it has checked the remote status, but before anything has been
 # pushed.  If this script exits with a non-zero status nothing will be pushed.
 #
