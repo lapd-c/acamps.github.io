@@ -21,6 +21,8 @@ PRODUCTIVITY: remove code duplication to be more productive.
 
 ZEN: Cleaning your files.
 
+KNOWLEDGE FROM RETROSPECTIVES.
+
 REFACTOR: better a class with not used parameters or pass 525 parameters each time.
 REFACTOR: refactors. SONARQUBE
 
