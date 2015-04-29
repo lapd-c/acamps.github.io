@@ -26,6 +26,17 @@ KNOWLEDGE FROM RETROSPECTIVES.
 REFACTOR: better a class with not used parameters or pass 525 parameters each time.
 REFACTOR: refactors. SONARQUBE
 
+GIT: git for-each-ref --sort=-committerdate refs/heads/ -- ORDER BY COMMITTERDATE
+git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(authorname) %(refname:short)'
+http://stackoverflow.com/questions/5188320/how-can-i-get-a-list-of-git-branches-ordered-by-most-recent-commit
+for ref in $(git for-each-ref --sort=-committerdate --format="%(refname)" refs/heads/ refs/remotes ); do git log -n1 $ref --pretty=format:"%Cgreen%cr%Creset %C(yellow)%d%Creset %C(bold blue)<%an>%Creset%n" | cat ; done | awk '! a[$0]++'
+
+http://stackoverflow.com/questions/25095061/how-can-i-get-a-list-of-git-branches-that-ive-recently-checked-out
+
+OTHER THINGS WITH GIT: http://stackoverflow.com/questions/4950725/how-do-i-get-git-to-show-me-which-branches-are-tracking-what
+
+TWIG http://rondevera.github.io/twig/
+
 BUSINESS: JIRA inclusion. 
 BUSINESS: Retrospectives. How to prepare as a developer.
 BUSINESS: How to reduce hackers, thiefs and similar.BUSINESS: How to reduce hackers, thiefs and similar.
