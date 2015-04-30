@@ -37,6 +37,15 @@ OTHER THINGS WITH GIT: http://stackoverflow.com/questions/4950725/how-do-i-get-g
 
 TWIG http://rondevera.github.io/twig/
 
+http://paper.li/gadz_er/1324366784?edition_id=ebaf3130-e4dd-11e4-b01c-0cc47a0d1609
+
+Everyone is smarter than you: http://chrisbrogan.com/everyone-is-smarter-than-you/?utm_content=bufferf0155&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+
+R: http://cran.r-project.org/web/views/HighPerformanceComputing.html
+R: http://player.oreilly.com/videos/9781491911969?toc_id=192701&cmp=pe-data-books-videos-product-na_dsc_email_apr21
+R: http://adv-r.had.co.nz/memory.html
+disqus: http://omgitsmgp.com/2013/08/29/disqus-and-jekyll-on-localhost/
+
 BUSINESS: JIRA inclusion. 
 BUSINESS: Retrospectives. How to prepare as a developer.
 BUSINESS: How to reduce hackers, thiefs and similar.BUSINESS: How to reduce hackers, thiefs and similar.
