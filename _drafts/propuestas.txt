@@ -47,9 +47,9 @@ R: http://adv-r.had.co.nz/memory.html
 disqus: http://omgitsmgp.com/2013/08/29/disqus-and-jekyll-on-localhost/
 
 BUSINESS: JIRA inclusion. 
-BUSINESS: Retrospectives. How to prepare as a developer.
+**DONE: BUSINESS: Retrospectives. How to prepare as a developer.
 BUSINESS: How to reduce hackers, thiefs and similar.BUSINESS: How to reduce hackers, thiefs and similar.
-BUSINESS: How you give information in e-mails can influence.
+**DONE: BUSINESS: How you give information in e-mails can influence.
 BUSINESS: http://www.inc.com/matthew-bellows/33-ways-to-encourage-mindfulness-at-work.html?cid=sf01001
 BUSINESS: Integrate exercise, and work techniques
 
