@@ -15,6 +15,8 @@ WEEKLY CONTENT
 
 Integrate tutorials with JEDI.
 
+
+
 Script for detecting passwords before pushes.
 
 PRODUCTIVITY: remove code duplication to be more productive.
