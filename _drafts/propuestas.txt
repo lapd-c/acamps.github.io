@@ -22,6 +22,7 @@ Group by time of day playing
 http://www.foodlustpeoplelove.com/2013/04/Cheesy-Spinach-Muffins.html
 http://www.foodlustpeoplelove.com/2011/06/spinach-feta-burgers.html
 https://www.pinterest.com/pin/38702878024605296/
+http://www.slate.com/blogs/browbeat/2015/05/01/vegan_cream_substitute_onions_provide_the_base_of_this_amazing_dairy_alternative.html
 
 Script for detecting passwords before pushes.
 
