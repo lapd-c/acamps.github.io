@@ -24,6 +24,8 @@ http://www.foodlustpeoplelove.com/2011/06/spinach-feta-burgers.html
 https://www.pinterest.com/pin/38702878024605296/
 http://www.slate.com/blogs/browbeat/2015/05/01/vegan_cream_substitute_onions_provide_the_base_of_this_amazing_dairy_alternative.html
 
+http://www.elconfidencial.com/tecnologia/2015-05-22/skinner-psicologia-videojuegos-clash-of-clans-candy-crush_852406/
+
 Script for detecting passwords before pushes.
 
 PRODUCTIVITY: remove code duplication to be more productive.
