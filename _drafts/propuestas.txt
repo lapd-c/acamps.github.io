@@ -30,6 +30,27 @@ http://www.jamieoliver.com/news-and-features/features/how-to-spring-clean-your-s
 http://www.dukansusi.com/2014/11/cebolla-pochar-microondas.html
 http://movietraffik.blogspot.co.uk/2012/06/insanity-workout.html
 
+UPDATE #transactions set #transactions.col1 = v_table_name.rn
+FROM  
+(
+    SELECT row_number() over (partition by col2 order by col3) AS rn, primary_key
+    FROM table_name
+) AS v_table_name
+WHERE table_name.primary_key = v_table_name.primary_key;
+
+SELECT t_transaction.user_id,
+       amount_gross,
+             (convert_timezone ('Europe/Madrid',datetime)) AS DATE,
+             row_number() over
+             (partition by t_transaction.user_id
+             order by date asc) as row
+FROM t_transaction,
+     (SELECT user_id
+      FROM t_user
+      WHERE revenues_date_first_transaction >= '2015-05-10'
+      AND   revenues_date_first_transaction < '2015-05-11' LIMIT 100) AS t1
+WHERE t1.user_id = t_transaction.user_id order by 3 asc;
+
 http://www.elconfidencial.com/tecnologia/2015-05-22/skinner-psicologia-videojuegos-clash-of-clans-candy-crush_852406/
 
 Script for detecting passwords before pushes.
