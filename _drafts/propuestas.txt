@@ -29,6 +29,28 @@ http://www.simplebites.net/how-to-grow-your-own-indoor-culinary-herb-garden/
 http://www.jamieoliver.com/news-and-features/features/how-to-spring-clean-your-store-cupboard/#CZTCOWOmCS4ork0G.97
 http://www.dukansusi.com/2014/11/cebolla-pochar-microondas.html
 http://movietraffik.blogspot.co.uk/2012/06/insanity-workout.html
+http://kat.cr/stretching-scientifically-with-quality-flexibility-heal-yourself-with-yoga-back-pain-and-joints-mantesh-t8390386.html
+http://kat.cr/101-essential-tips-baking-growing-vegetables-yoga-home-brewing-dog-care-cat-care-effetive-communication-and-negotiation-books-collection-mantesh-t10578274.html
+http://greatist.com/health/healthy-single-serving-meals
+http://greatist.com/connect/questions-to-change-your-life
+http://www.gq.com/blogs/the-feed/2014/06/best-ab-workout-beach-season.html
+http://greatist.com/
+http://greatist.com/eat/easy-recipe-formulas
+http://greatist.com/move/exercises-to-help-chronic-back-pain
+http://greatist.com/fitness/do-calorie-monitors-really-work
+
+http://greatist.com/connect/brutally-honest-body-image-lesson
+http://greatist.com/move/fitness-lifelong-practice
+http://greatist.com/fitness/beginner-guide-advanced-bodyweight-skills
+http://vitals.lifehacker.com/go-barefoot-at-the-gym-to-get-more-out-of-these-exercis-1706356760
+http://vitals.lifehacker.com/count-macronutrients-instead-of-calories-for-better-die-1706873465
+http://vitals.lifehacker.com/why-eat-less-move-more-is-the-least-helpful-diet-adv-1686146359
+http://vitals.lifehacker.com/what-causes-the-dadbod-and-how-to-reverse-it-1704598337
+http://aversiadelgazo.blogspot.com.es/p/valor-nutricional-alimentos.html
+http://aversiadelgazo.blogspot.com.es/p/recetas.html
+http://www.builtlean.com/2012/10/03/complete-vs-incomplete-protein-sources/
+http://www.desdeeltocadordewary.com/2013/05/tortitas-de-salvado-de-avena-dukan.html
+http://recetasdukanmariamartinez.com/2013/08/26/desayuno-dukan-fase-ataque/
 
 UPDATE #transactions set #transactions.col1 = v_table_name.rn
 FROM  
