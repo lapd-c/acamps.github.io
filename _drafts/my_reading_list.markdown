@@ -7,3 +7,7 @@ A young Quentin Coldwater experiences a life changing experience when he discove
 
 ## Win friends and influence people - Dale Carnegie
 
+## Humble Inquiry - Edgar H. Schein (2016-1-25 to 2016-2-2)
+
+
+
