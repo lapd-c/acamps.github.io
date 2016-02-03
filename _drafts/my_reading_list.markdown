@@ -9,5 +9,8 @@ A young Quentin Coldwater experiences a life changing experience when he discove
 
 ## Humble Inquiry - Edgar H. Schein (2016-1-25 to 2016-2-2)
 
+## The Brief and Wondrous Life of Oscar Wao - Junot Díaz (2016-02-02)
+The history quickly shifts between Trujillo, what Fukú is, and the life of Oscar, as seen by him first, and then by his sister.
 
+Oscar lives a life that follows a downwards trend. 
 
