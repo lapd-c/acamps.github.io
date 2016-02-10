@@ -12,5 +12,13 @@ A young Quentin Coldwater experiences a life changing experience when he discove
 ## The Brief and Wondrous Life of Oscar Wao - Junot Díaz (2016-02-02)
 The history quickly shifts between Trujillo, what Fukú is, and the life of Oscar, as seen by him first, and then by his sister.
 
-Oscar lives a life that follows a downwards trend. 
+Oscar lives a life that follows a downwards trend, marked by the fukú that his family gained when *contradicting* Trujillo.
+
+Beli, Lola, La Inca, and who gets this story for us, Yunior, are embarked in an impossible story in which their poor choices are determined by some kind of unavoidable fate. They may know better. They do know better.
+
+But a Fukú is set in the family.
+
+They just decide that is not where they will head to. They will **true to themselves**. A dangerous thought.
+
+## Feel the Fear and do it anyway - Susan Jefers
 
