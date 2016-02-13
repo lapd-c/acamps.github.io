@@ -46,7 +46,7 @@ share_reddit: false
 share_stumbleupon: true
 
 # Build settings
-markdown:     redcarpet
+markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    date #pretty
